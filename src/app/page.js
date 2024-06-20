@@ -1,15 +1,17 @@
 import Image from "next/image";
 
-import { Button, NextUIProvider } from "@nextui-org/react";
+import { Button, NextUIProvider, Slider } from "@nextui-org/react";
 import Products from "@/components/Products";
 import FrequentlyAsked from "@/components/FrequentlyAsked";
 import Gallery from "@/components/Gallery";
+import Carousel from "@/components/Carousel";
 
 export default function Home() {
   return (
     <div>
       <NextUIProvider>
-        {/* <Carousel /> */}
+        
+        <Carousel />
         <Products />
         <FrequentlyAsked />
         <Gallery />
