@@ -46,16 +46,6 @@ const NavBar = () => {
       }
 
       setLastScrollY(currentScrollY);
-
-      if (scrollTimeout) {
-        clearTimeout(scrollTimeout);
-      }
-
-      setScrollTimeout(
-        setTimeout(() => {
-          setIsVisible(false);
-        }, 3000)
-      );
     };
 
     window.addEventListener("scroll", handleScroll);
