@@ -9,9 +9,50 @@
   font-weight: 400;
   font-style: normal;
 }
-/* 
-.lobster-regular {
-  font-family: "Lobster", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-} */
+
+:root {
+  --background-color: #f8f0e6;
+  --primary-text-color: #36454f;
+  --header-color: #8b4513;
+  --link-button-color: #b7410e;
+  --accent-color: #daa520;
+  --secondary-background-color: #fffdd0;
+  --secondary-accent-color: #556b2f;
+  --tertiary-accent-color: #808000;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--header-color);
+}
+
+a,
+button {
+  color: var(--link-button-color);
+}
+
+a:hover,
+button:hover {
+  color: var(--accent-color);
+}
+
+.section {
+  background-color: var(--secondary-background-color);
+}
+
+.accent {
+  color: var(--secondary-accent-color);
+}
+
+.secondary-accent {
+  color: var(--tertiary-accent-color);
+}
