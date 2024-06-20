@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   Dropdown,
   DropdownTrigger,
@@ -8,7 +8,10 @@ import {
 } from "@nextui-org/react";
 
 const NavBar = () => {
-  const [selectedKeys, setSelectedKeys] = React.useState(new Set(["english"]));
+  const [selectedKeys, setSelectedKeys] = useState(new Set(["english"]));
+  const [isVisible, setIsVisible] = useState(true);
+  const [scrollTimeout, setScrollTimeout] = useState(null);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   // Mapping of key to image source and display text
   const languageMap = {
@@ -20,11 +23,8 @@ const NavBar = () => {
   };
 
   const selectedValue = React.useMemo(() => {
-    // Get the selected key from selectedKeys set
     const selectedKey = Array.from(selectedKeys)[0];
-    // Get the image and text based on selected key
     const { image, text } = languageMap[selectedKey];
-    // Return JSX combining image and text
     return (
       <div className="flex items-center gap-3">
         <img src={image} alt={selectedKey} className="h-7 w-7 rounded-full" />
@@ -33,8 +33,47 @@ const NavBar = () => {
     );
   }, [selectedKeys]);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY < lastScrollY) {
+        // Scrolling up
+        setIsVisible(true);
+      } else if (currentScrollY > lastScrollY) {
+        // Scrolling down
+        setIsVisible(false);
+      }
+
+      setLastScrollY(currentScrollY);
+
+      if (scrollTimeout) {
+        clearTimeout(scrollTimeout);
+      }
+
+      setScrollTimeout(
+        setTimeout(() => {
+          setIsVisible(false);
+        }, 3000)
+      );
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      if (scrollTimeout) {
+        clearTimeout(scrollTimeout);
+      }
+    };
+  }, [lastScrollY, scrollTimeout]);
+
   return (
-    <div className="px-[5%] fixed backdrop-blur-lg top-0 flex justify-between items-center z-[1000] text-white bg-header-color/20 w-full">
+    <div
+      className={`px-[5%] fixed backdrop-blur-lg top-0 flex justify-between items-center z-[1000] text-white bg-header-color/20 w-full transition-transform duration-500 ${
+        isVisible ? "translate-y-0" : "-translate-y-full"
+      }`}
+    >
       <ul className="flex gap-6 py-2 items-center justify-start h-full font-light">
         <li className="cursor-pointer">Home</li>
         <li className="cursor-pointer">Services</li>
