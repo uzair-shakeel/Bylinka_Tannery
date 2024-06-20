@@ -10,6 +10,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        "background-color": "#f8f0e6",
+        "text-color": "#36454f",
+        "header-color": "#8b4513",
+        "button-color": "#b7410e",
+        "accent-color": "#daa520",
+        "secondary-bg-color": "#fffdd0",
+        "secondary-accent-color": "#556b2f",
+        "tertiary-accent-color": "#808000",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

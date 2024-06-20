@@ -3,6 +3,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "./Styles.css";
 
 export default function Carousel() {
   function SampleNextArrow(props) {
@@ -35,7 +36,7 @@ export default function Carousel() {
     infinite: true,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
-    autoplay: true,
+    // autoplay: true,
     speed: 2000,
     autoplaySpeed: 4000,
     slidesToShow: 1,
@@ -43,93 +44,103 @@ export default function Carousel() {
   };
   return (
     <Slider {...settings} className="h-[400px]">
-      <div>
-        <div className="relative h-[400px] w-full oveflow-hidden">
-          <img src="/9.webp" alt="bg" className=" h-full w-full object-cover" />
-          <div className="absolute top-12 w-full h-full flex flex-col items-center ">
-            <h1 className="text-5xl text-white top-12 text-center py-6 font-bold w-full">
-              Bylinka Tannery!
-            </h1>
-            <p className=" top-24 mx-[15%]  py-4 px-4 border-white border bg-white/20 rounded-xl backdrop-blur-md text-lg  text-white ">
-              We warmly welcome you to the official website of Bylinka Tannery -
-              a place where tradition meets modernity in the art of leather
-              tanning. We are proud to continue the craftsmanship that has been
-              our passion for generations. We invite you to explore our wide
-              range of products and exceptional services.
-            </p>
-          </div>
+      <div className="flex relative bg-green-50 h-[400px] overflow-hidden">
+        <img
+          src="/9.webp"
+          alt="bg"
+          className=" h-full w-[65%] object-cover clip-path"
+        />
+        <div className="absolute ml-[40%] w-[40%] text-black top-20 right-0 h-full flex flex-col items-center ">
+          <h1 className="text-5xl  top-12 text-center py-6 font-bold w-full">
+            Bylinka Tannery!
+          </h1>
+          <p className=" top-24  py-4 px-8 text-justify text-brown-200 ">
+            We warmly welcome you to the official website of Bylinka Tannery - a
+            place where tradition meets modernity in the art of leather tanning.
+            We are proud to continue the craftsmanship that has been our passion
+            for generations. We invite you to explore our wide range of products
+            and exceptional services.
+          </p>
         </div>
       </div>
-      <div>
-        <div className="relative h-[400px] w-full oveflow-hidden">
-          <img src="/10.jpg" alt="bg" className=" h-full w-full object-cover" />
-          <div className="absolute top-12 w-full h-full flex flex-col items-center ">
-            <h1 className="text-5xl text-white top-12 text-center py-6 font-bold w-full">
-              Bylinka Tannery!
-            </h1>
-            <p className=" top-24 mx-[15%]  py-4 px-4 border-white border bg-white/20 rounded-xl backdrop-blur-md text-lg  text-white ">
-              We warmly welcome you to the official website of Bylinka Tannery -
-              a place where tradition meets modernity in the art of leather
-              tanning. We are proud to continue the craftsmanship that has been
-              our passion for generations. We invite you to explore our wide
-              range of products and exceptional services.
-            </p>
-          </div>
+
+      <div className="flex relative bg-blue-100 h-[400px] overflow-hidden">
+        <img
+          src="/10.jpg"
+          alt="bg"
+          className=" h-full  w-[65%] object-cover clip-path"
+        />
+        <div className="absolute  w-[40%] text-black top-20 right-0  h-full flex flex-col items-center ">
+          <h1 className="text-5xl  top-12 text-center text-blue-800 py-6 font-bold w-full">
+            Bylinka Tannery!
+          </h1>
+          <p className=" top-24  py-4 px-8 text-justify text-brown-200 ">
+            We warmly welcome you to the official website of Bylinka Tannery - a
+            place where tradition meets modernity in the art of leather tanning.
+            We are proud to continue the craftsmanship that has been our passion
+            for generations. We invite you to explore our wide range of products
+            and exceptional services.
+          </p>
         </div>
       </div>
-      <div>
-        <div className="relative h-[400px] w-full oveflow-hidden">
-          <img src="/11.jpg" alt="bg" className=" h-full w-full object-cover" />
-          <div className="absolute top-12 w-full h-full flex flex-col items-center ">
-            <h1 className="text-5xl text-white top-12 text-center py-6 font-bold w-full">
-              Bylinka Tannery!
-            </h1>
-            <p className=" top-24 mx-[15%]  py-4 px-4 border-white border bg-white/20 rounded-xl backdrop-blur-md text-lg  text-white ">
-              We warmly welcome you to the official website of Bylinka Tannery -
-              a place where tradition meets modernity in the art of leather
-              tanning. We are proud to continue the craftsmanship that has been
-              our passion for generations. We invite you to explore our wide
-              range of products and exceptional services.
-            </p>
-          </div>
+
+      <div className="flex relative h-[400px] bg-red-100 overflow-hidden">
+        <img
+          src="/11.jpg"
+          alt="bg"
+          className=" h-full w-[65%] object-cover clip-path"
+        />
+        <div className="absolute w-[40%] text-black top-20 right-0 h-full flex flex-col items-center ">
+          <h1 className="text-5xl  top-12 text-center py-6 font-bold w-full">
+            Bylinka Tannery!
+          </h1>
+          <p className=" top-24  py-4 px-8 text-justify text-brown-200 ">
+            We warmly welcome you to the official website of Bylinka Tannery - a
+            place where tradition meets modernity in the art of leather tanning.
+            We are proud to continue the craftsmanship that has been our passion
+            for generations. We invite you to explore our wide range of products
+            and exceptional services.
+          </p>
         </div>
       </div>
-      <div>
-        <div className="relative h-[400px] w-full oveflow-hidden">
-          <img
-            src="/12.jpeg"
-            alt="bg"
-            className=" h-full w-full object-cover"
-          />
-          <div className="absolute top-12 w-full h-full flex flex-col items-center ">
-            <h1 className="text-5xl text-white top-12 text-center py-6 font-bold w-full">
-              Bylinka Tannery!
-            </h1>
-            <p className=" top-24 mx-[15%]  py-4 px-4 border-white border bg-white/20 rounded-xl backdrop-blur-md text-lg  text-white ">
-              We warmly welcome you to the official website of Bylinka Tannery -
-              a place where tradition meets modernity in the art of leather
-              tanning. We are proud to continue the craftsmanship that has been
-              our passion for generations. We invite you to explore our wide
-              range of products and exceptional services.
-            </p>
-          </div>
+
+      <div className="flex bg-blue-100 relative h-[400px] overflow-hidden">
+        <img
+          src="/12.jpeg"
+          alt="bg"
+          className=" h-full w-[65%] object-cover  clip-path"
+        />
+        <div className="absolute w-[40%] text-black top-20 right-0  h-full flex flex-col items-center ">
+          <h1 className="text-5xl  top-12 text-center text-blue-800 py-6 font-bold w-full">
+            Bylinka Tannery!
+          </h1>
+          <p className=" top-24  py-4 px-8 text-justify text-brown-200 ">
+            We warmly welcome you to the official website of Bylinka Tannery - a
+            place where tradition meets modernity in the art of leather tanning.
+            We are proud to continue the craftsmanship that has been our passion
+            for generations. We invite you to explore our wide range of products
+            and exceptional services.
+          </p>
         </div>
       </div>
-      <div>
-        <div className="relative h-[400px] w-full oveflow-hidden">
-          <img src="/5.webp" alt="bg" className=" h-full w-full object-cover" />
-          <div className="absolute top-12 w-full h-full flex flex-col items-center ">
-            <h1 className="text-5xl text-white top-12 text-center py-6 font-bold w-full">
-              Bylinka Tannery!
-            </h1>
-            <p className=" top-24 mx-[15%]  py-4 px-4 border-white border bg-white/20 rounded-xl backdrop-blur-md text-lg  text-white ">
-              We warmly welcome you to the official website of Bylinka Tannery -
-              a place where tradition meets modernity in the art of leather
-              tanning. We are proud to continue the craftsmanship that has been
-              our passion for generations. We invite you to explore our wide
-              range of products and exceptional services.
-            </p>
-          </div>
+
+      <div className="flex relative h-[400px] bg-red-100 overflow-hidden">
+        <img
+          src="/8.jpg"
+          alt="bg"
+          className=" h-full w-[65%] object-cover clip-path"
+        />
+        <div className="absolute w-[40%] text-black top-20 right-0 h-full flex flex-col items-center ">
+          <h1 className="text-5xl  top-12 text-center py-6 font-bold w-full">
+            Bylinka Tannery!
+          </h1>
+          <p className=" top-24  py-4 px-8 text-justify text-brown-200 ">
+            We warmly welcome you to the official website of Bylinka Tannery - a
+            place where tradition meets modernity in the art of leather tanning.
+            We are proud to continue the craftsmanship that has been our passion
+            for generations. We invite you to explore our wide range of products
+            and exceptional services.
+          </p>
         </div>
       </div>
     </Slider>

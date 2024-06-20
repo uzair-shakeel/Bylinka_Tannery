@@ -35,13 +35,11 @@ h6 {
   color: var(--header-color);
 }
 
-a,
-button {
+a {
   color: var(--link-button-color);
 }
 
-a:hover,
-button:hover {
+a:hover {
   color: var(--accent-color);
 }
 
