@@ -8,9 +8,9 @@ const Categories = () => {
         <div className="bg-white p-4 group overflow-hidden">
           <h3>Sheep Skins</h3>
           <img
-            src="/sheep-vector.jpg"
+            src="/Sheep-icons.avif"
             alt="sheep"
-            className="h-[200px] w-auto mx-auto "
+            className="h-[200px] w-auto mx-auto  py-4"
           />
           <div className="relative ">
             <button className="w-full bg-header-color text-white py-2 absolute top-5 group-hover:top-[-30px] duration-500">
@@ -24,9 +24,9 @@ const Categories = () => {
         <div className="bg-white p-4 group overflow-hidden">
           <h3>Deer Skins</h3>
           <img
-            src="/Deer-vector.avif"
+            src="/Deer-icons.avif"
             alt="sheep"
-            className="h-[200px] w-auto mx-auto "
+            className="h-[200px] w-auto mx-auto  py-4"
           />
           <div className="relative ">
             <button className="w-full bg-header-color text-white py-2 absolute top-5 group-hover:top-[-30px] duration-500">
@@ -40,9 +40,9 @@ const Categories = () => {
         <div className="bg-white p-4 group overflow-hidden">
           <h3>Reindeer Skins</h3>
           <img
-            src="/reindeer-vector.jpeg"
+            src="/Reindeer-icons.avif"
             alt="sheep"
-            className="h-[200px] w-auto mx-auto "
+            className="h-[200px] w-auto mx-auto  py-4"
           />
           <div className="relative ">
             <button className="w-full bg-header-color text-white py-2 absolute top-5 group-hover:top-[-30px] duration-500">
@@ -56,9 +56,9 @@ const Categories = () => {
         <div className="bg-white p-4 group overflow-hidden">
           <h3>Medical</h3>
           <img
-            src="/medical-vector2.avif"
+            src="/Medical-icon.avif"
             alt="sheep"
-            className="h-[200px] w-auto mx-auto"
+            className="h-[200px] w-auto mx-auto py-4"
           />
           <div className="relative ">
             <button className="w-full bg-header-color text-white py-2 absolute top-5 group-hover:top-[-30px] duration-500">

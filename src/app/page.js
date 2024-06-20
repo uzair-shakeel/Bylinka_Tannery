@@ -10,6 +10,8 @@ import Images from "@/components/Images";
 import Reindeer from "@/components/Reindeer";
 import Categories from "@/components/Categories";
 import Contact from "@/components/Contact";
+import ThreeGrid from "@/components/ThreeGrid";
+import Banner from "@/components/Banner";
 
 export default function Home() {
   const scrollToTop = () => {
@@ -20,13 +22,12 @@ export default function Home() {
       <NextUIProvider>
         <NavBar />
         <Carousel />
+        <ThreeGrid />
         <Images />
         <Reindeer />
         <Categories />
+        <Banner />
         <Contact />
-        {/* <Products />
-        <FrequentlyAsked />
-        <Gallery /> */}
         <button
           onClick={scrollToTop}
           className="p-3 cursor-pointer bg-[#4F3727]/20 hover:border-none hover:p-4 duration-500 text-black text-white right-10 border-[#4F3727] border backdrop-blur-md rounded-full fixed bottom-6 animate-bounce z-[100]"
