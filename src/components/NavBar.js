@@ -77,6 +77,13 @@ const NavBar = () => {
           <li className="cursor-pointer">About</li>
         </Link>
       </ul>
+      <Link href={"home"}>
+        <img
+          src="/logo-brown.png"
+          alt="logo"
+          className="w-auto my-2 h-10 text-white"
+        />
+      </Link>
       <Dropdown>
         <DropdownTrigger>
           <Button
