@@ -12,6 +12,8 @@ import Categories from "@/components/Categories";
 import Contact from "@/components/Contact";
 import ThreeGrid from "@/components/ThreeGrid";
 import Banner from "@/components/Banner";
+import GetinTouch from "@/components/GetinTouch";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const scrollToTop = () => {
@@ -28,6 +30,8 @@ export default function Home() {
         <Categories />
         <Banner />
         <Contact />
+        <GetinTouch />
+        <Footer />
         <button
           onClick={scrollToTop}
           className="p-3 cursor-pointer bg-[#4F3727]/20 hover:border-none hover:p-4 duration-500 text-black text-white right-10 border-[#4F3727] border backdrop-blur-md rounded-full fixed bottom-6 animate-bounce z-[100]"
