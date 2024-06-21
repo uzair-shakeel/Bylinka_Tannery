@@ -35,14 +35,6 @@ h6 {
   color: var(--header-color);
 }
 
-a {
-  color: var(--link-button-color);
-}
-
-a:hover {
-  color: var(--accent-color);
-}
-
 .section {
   background-color: var(--secondary-background-color);
 }

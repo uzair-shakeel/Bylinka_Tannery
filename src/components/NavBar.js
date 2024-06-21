@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect, useState } from "react";
 import {
   Dropdown,
@@ -6,6 +7,7 @@ import {
   DropdownItem,
   Button,
 } from "@nextui-org/react";
+import Link from "next/link";
 
 const NavBar = () => {
   const [selectedKeys, setSelectedKeys] = useState(new Set(["english"]));
@@ -65,9 +67,15 @@ const NavBar = () => {
       }`}
     >
       <ul className="flex gap-6 py-2 items-center justify-start h-full font-light">
-        <li className="cursor-pointer">Home</li>
-        <li className="cursor-pointer">Services</li>
-        <li className="cursor-pointer">Contact</li>
+        <Link href={"home"}>
+          <li className="cursor-pointer">Home</li>
+        </Link>
+        <Link href={"services"}>
+          <li className="cursor-pointer">Services</li>
+        </Link>
+        <Link href={"about"}>
+          <li className="cursor-pointer">About</li>
+        </Link>
       </ul>
       <Dropdown>
         <DropdownTrigger>
