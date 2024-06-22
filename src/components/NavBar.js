@@ -66,7 +66,7 @@ const NavBar = () => {
         isVisible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
-      <ul className="flex gap-6 py-2 items-center justify-start h-full font-light">
+      <ul className="flex gap-5 md:gap-6 py-2 items-center text-sm md:text-md justify-start h-full font-light">
         <Link href={"home"}>
           <li className="cursor-pointer">Home</li>
         </Link>
@@ -77,14 +77,14 @@ const NavBar = () => {
           <li className="cursor-pointer">About</li>
         </Link>
       </ul>
-      <Link href={"home"}>
+      {/* <Link href={"home"}>
         <img
           src="/logo-brown.png"
           alt="logo"
           className="w-auto my-2 h-10 text-white"
         />
-      </Link>
-      <Dropdown>
+      </Link> */}
+      <Dropdown className="text-sm md:text-md">
         <DropdownTrigger>
           <Button
             variant="ghost"

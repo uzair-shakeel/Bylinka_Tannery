@@ -36,21 +36,149 @@ export default function Carousel() {
     infinite: true,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
-    // autoplay: true,
-    speed: 2000,
+    autoplay: true,
+    speed: 1500,
     autoplaySpeed: 4000,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
   return (
     <Slider {...settings} className="h-[400px]">
-      <div className="flex flex-col md:flex-row relative bg-green-50 h-[400px] overflow-hidden">
+      <div className="flex flex-col md:flex-row relative bg-red-50 h-[400px] overflow-hidden">
         <img
           src="/9.webp"
           alt="bg"
           className=" h-[60%] w-full md:h-full md:w-[65%] object-cover clip-path"
         />
-        <div className="hidden absolute xl:px-[5%] ml-[40%] w-[40%] text-black top-20 right-0 h-full md:flex flex-col items-center ">
+        <div className="hidden absolute 2xl:px-[5%] ml-[40%] w-[40%] text-black top-20 right-0 h-full md:flex flex-col items-center ">
+          <h1 className="text-5xl  top-12 text-center py-6 font-bold w-full">
+            Bylinka Tannery!
+          </h1>
+          <p className=" top-24  py-4 px-8 text-justify text-brown-200 ">
+            We warmly welcome you to the official website of Bylinka Tannery - a
+            place where tradition meets modernity in the art of leather tanning.
+            <span className="hidden lg:block py-3">
+              We are proud to continue the craftsmanship that has been our
+              passion for generations.
+            </span>
+          </p>
+        </div>
+
+        <div className="md:hidden absolute mt-[40%] w-full text-black top-20 right-0 h-full flex flex-col items-center ">
+          <h1 className="text-2xl  text-center py-3 font-bold w-full">
+            Bylinka Tannery!
+          </h1>
+          <p className=" px-8 text-justify text-tiny ">
+            We warmly welcome you to the official website of Bylinka Tannery - a
+            place where tradition meets modernity in the art of leather tanning.
+            We are proud to continue the craftsmanship that has been our passion
+            for generations.
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-col md:flex-row relative bg-blue-100 h-[400px] overflow-hidden">
+        <img
+          src="/10.jpg"
+          alt="bg"
+          className=" h-[60%] w-full md:h-full md:w-[65%] object-cover clip-path"
+        />
+        <div className="hidden absolute 2xl:px-[5%] ml-[40%] w-[40%] text-black top-20 right-0 h-full md:flex flex-col items-center ">
+          <h1 className="text-5xl  top-12 text-center py-6 text-blue-800 font-bold w-full">
+            Bylinka Tannery!
+          </h1>
+          <p className=" top-24  py-4 px-8 text-justify text-brown-200 ">
+            We warmly welcome you to the official website of Bylinka Tannery - a
+            place where tradition meets modernity in the art of leather tanning.
+            <span className="hidden lg:block py-3">
+              We are proud to continue the craftsmanship that has been our
+              passion for generations.
+            </span>
+          </p>
+        </div>
+
+        <div className="md:hidden absolute mt-[40%] w-full text-black top-20 right-0 h-full flex flex-col items-center ">
+          <h1 className="text-2xl  text-center py-3 text-blue-800 font-bold w-full">
+            Bylinka Tannery!
+          </h1>
+          <p className=" px-8 text-justify text-tiny ">
+            We warmly welcome you to the official website of Bylinka Tannery - a
+            place where tradition meets modernity in the art of leather tanning.
+            We are proud to continue the craftsmanship that has been our passion
+            for generations.
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-col md:flex-row relative bg-red-50 h-[400px] overflow-hidden">
+        <img
+          src="/11.jpg"
+          alt="bg"
+          className=" h-[60%] w-full md:h-full md:w-[65%] object-cover clip-path"
+        />
+        <div className="hidden absolute 2xl:px-[5%] ml-[40%] w-[40%] text-black top-20 right-0 h-full md:flex flex-col items-center ">
+          <h1 className="text-5xl  top-12 text-center py-6 font-bold w-full">
+            Bylinka Tannery!
+          </h1>
+          <p className=" top-24  py-4 px-8 text-justify text-brown-200 ">
+            We warmly welcome you to the official website of Bylinka Tannery - a
+            place where tradition meets modernity in the art of leather tanning.
+            <span className="hidden lg:block py-3">
+              We are proud to continue the craftsmanship that has been our
+              passion for generations.
+            </span>
+          </p>
+        </div>
+
+        <div className="md:hidden absolute mt-[40%] w-full text-black top-20 right-0 h-full flex flex-col items-center ">
+          <h1 className="text-2xl  text-center py-3 font-bold w-full">
+            Bylinka Tannery!
+          </h1>
+          <p className=" px-8 text-justify text-tiny ">
+            We warmly welcome you to the official website of Bylinka Tannery - a
+            place where tradition meets modernity in the art of leather tanning.
+            We are proud to continue the craftsmanship that has been our passion
+            for generations.
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-col md:flex-row relative bg-blue-100 h-[400px] overflow-hidden">
+        <img
+          src="/12.jpeg"
+          alt="bg"
+          className=" h-[60%] w-full md:h-full md:w-[65%] object-cover clip-path"
+        />
+        <div className="hidden absolute 2xl:px-[5%] ml-[40%] w-[40%] text-black top-20 right-0 h-full md:flex flex-col items-center ">
+          <h1 className="text-5xl  top-12 text-center text-blue-800 py-6 font-bold w-full">
+            Bylinka Tannery!
+          </h1>
+          <p className=" top-24  py-4 px-8 text-justify text-brown-200 ">
+            We warmly welcome you to the official website of Bylinka Tannery - a
+            place where tradition meets modernity in the art of leather tanning.
+            <span className="hidden lg:block py-3">
+              We are proud to continue the craftsmanship that has been our
+              passion for generations.
+            </span>
+          </p>
+        </div>
+
+        <div className="md:hidden absolute mt-[40%] w-full text-black top-20 right-0 h-full flex flex-col items-center ">
+          <h1 className="text-2xl  text-center py-3 text-blue-800 font-bold w-full">
+            Bylinka Tannery!
+          </h1>
+          <p className=" px-8 text-justify text-tiny ">
+            We warmly welcome you to the official website of Bylinka Tannery - a
+            place where tradition meets modernity in the art of leather tanning.
+            We are proud to continue the craftsmanship that has been our passion
+            for generations.
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-col md:flex-row relative bg-red-50 h-[400px] overflow-hidden">
+        <img
+          src="/8.jpg"
+          alt="bg"
+          className=" h-[60%] w-full md:h-full md:w-[65%] object-cover clip-path"
+        />
+        <div className="hidden absolute 2xl:px-[5%] ml-[40%] w-[40%] text-black top-20 right-0 h-full md:flex flex-col items-center ">
           <h1 className="text-5xl  top-12 text-center py-6 font-bold w-full">
             Bylinka Tannery!
           </h1>
@@ -77,7 +205,7 @@ export default function Carousel() {
         </div>
       </div>
 
-      <div className="flex relative bg-blue-100 h-[400px] overflow-hidden">
+      {/* <div className="flex relative bg-blue-100 h-[400px] overflow-hidden">
         <img
           src="/10.jpg"
           alt="bg"
@@ -95,9 +223,9 @@ export default function Carousel() {
             and exceptional services.
           </p>
         </div>
-      </div>
+      </div> */}
 
-      <div className="flex relative h-[400px] bg-red-100 overflow-hidden">
+      {/* <div className="flex relative h-[400px] bg-red-100 overflow-hidden">
         <img
           src="/11.jpg"
           alt="bg"
@@ -115,9 +243,9 @@ export default function Carousel() {
             and exceptional services.
           </p>
         </div>
-      </div>
+      </div> */}
 
-      <div className="flex bg-blue-100 relative h-[400px] overflow-hidden">
+      {/* <div className="flex bg-blue-100 relative h-[400px] overflow-hidden">
         <img
           src="/12.jpeg"
           alt="bg"
@@ -135,9 +263,9 @@ export default function Carousel() {
             and exceptional services.
           </p>
         </div>
-      </div>
+      </div> */}
 
-      <div className="flex relative h-[400px] bg-red-100 overflow-hidden">
+      {/* <div className="flex relative h-[400px] bg-red-100 overflow-hidden">
         <img
           src="/8.jpg"
           alt="bg"
@@ -155,7 +283,7 @@ export default function Carousel() {
             and exceptional services.
           </p>
         </div>
-      </div>
+      </div> */}
     </Slider>
   );
 }
