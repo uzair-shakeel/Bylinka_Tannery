@@ -22,7 +22,7 @@ const Banner = () => {
         <div className="relative h-[600px] w-full overflow-hidden">
           <img src="/10.jpg" alt="img" className="w-full h-full object-cover" />
           <div className="absolute top-6 w-full text-center">
-            <h3 className="text-5xl font-semibold  text-blue-800">Sheep</h3>
+            <h3 className="text-5xl font-semibold  text-blue-800">Deer</h3>
             <p className="text-blue-900 py-4">
               Wrap Yourself in Natural Comfort <br /> Discover Luxurious
               Sheepskin Today!

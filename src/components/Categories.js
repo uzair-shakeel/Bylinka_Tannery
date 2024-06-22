@@ -1,5 +1,4 @@
 import React from "react";
-import { RiWhatsappFill } from "react-icons/ri";
 
 const Categories = () => {
   return (
@@ -16,9 +15,6 @@ const Categories = () => {
             <button className="w-full bg-header-color text-white py-2 absolute top-5 group-hover:top-[-30px] duration-500">
               See More
             </button>
-            <div className="  text-green-600 cursor-pointer py-2 absolute top-[-300px] right-0 hover:animate-pulse group-hover:top-[-230px] duration-500">
-              <RiWhatsappFill size={28} />
-            </div>
           </div>
         </div>
         <div className="bg-neutral-100 p-4 group overflow-hidden">
@@ -32,9 +28,6 @@ const Categories = () => {
             <button className="w-full bg-header-color text-white py-2 absolute top-5 group-hover:top-[-30px] duration-500">
               See More
             </button>
-            <div className="  text-green-600 cursor-pointer py-2 absolute top-[-300px] right-0 hover:animate-pulse group-hover:top-[-230px] duration-500">
-              <RiWhatsappFill size={28} />
-            </div>
           </div>
         </div>
         <div className="bg-neutral-100 p-4 group overflow-hidden">
@@ -48,9 +41,6 @@ const Categories = () => {
             <button className="w-full bg-header-color text-white py-2 absolute top-5 group-hover:top-[-30px] duration-500">
               See More
             </button>
-            <div className="  text-green-600 cursor-pointer py-2 absolute top-[-300px] right-0 hover:animate-pulse group-hover:top-[-230px] duration-500">
-              <RiWhatsappFill size={28} />
-            </div>
           </div>
         </div>
         <div className="bg-neutral-100 p-4 group overflow-hidden">
@@ -64,9 +54,6 @@ const Categories = () => {
             <button className="w-full bg-header-color text-white py-2 absolute top-5 group-hover:top-[-30px] duration-500">
               See More
             </button>
-            <div className="  text-green-600 cursor-pointer py-2 absolute top-[-300px] right-0 hover:animate-pulse group-hover:top-[-230px] duration-500">
-              <RiWhatsappFill size={28} />
-            </div>
           </div>
         </div>
       </div>
