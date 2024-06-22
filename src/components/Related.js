@@ -20,7 +20,7 @@ const Related = () => {
                 Discover Luxurious Sheepskin Today!
               </span>
             </p>
-            <Link href={"services"}>
+            <Link href={"sheep"}>
               <button className="md:py-2 md:px-5 py-1 px-2 bg-green-800 text-white text-sm md:text-md">
                 See More
               </button>
@@ -39,7 +39,7 @@ const Related = () => {
                 Discover Luxurious Sheepskin Today!
               </span>
             </p>
-            <Link href={"services"}>
+            <Link href={"deer"}>
               <button className="md:py-2 md:px-5 py-1 px-2 bg-blue-800 text-white text-sm md:text-md">
                 See More
               </button>
@@ -58,7 +58,7 @@ const Related = () => {
                 Discover the Beauty of Reindeer Skin.
               </span>
             </p>
-            <Link href={"services"}>
+            <Link href={"reindeer"}>
               <button className="md:py-2 md:px-5 py-1 px-2 bg-header-color text-red-50 text-sm sm:text-md">
                 See More
               </button>

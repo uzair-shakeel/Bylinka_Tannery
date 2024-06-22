@@ -1,7 +1,7 @@
 "use client";
 import Related from "@/components/Related";
-import Service from "@/components/Service";
-import ServiceDescription from "@/components/ServiceDescription";
+import MedicalService from "@/components/MedicalService";
+import MedicalDescription from "@/components/MedicalDescription";
 import React from "react";
 import { RiArrowUpDoubleLine } from "react-icons/ri";
 
@@ -11,8 +11,8 @@ const page = () => {
   };
   return (
     <div>
-      <Service />
-      <ServiceDescription />
+      <MedicalService />
+      <MedicalDescription />
       <Related />
       <button
         onClick={scrollToTop}

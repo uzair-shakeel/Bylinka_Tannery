@@ -11,6 +11,7 @@ import ThreeGrid from "@/components/ThreeGrid";
 import Banner from "@/components/Banner";
 import GetinTouch from "@/components/GetinTouch";
 import { RiArrowUpDoubleLine } from "react-icons/ri";
+import Contactgrids from "@/components/Contactgrids";
 
 const Page = () => {
   const scrollToTop = () => {
@@ -26,6 +27,7 @@ const Page = () => {
       <Banner />
       <Contact />
       <GetinTouch />
+      <Contactgrids />
       <button
         onClick={scrollToTop}
         className="hidden md:block p-3 cursor-pointer bg-white/40 hover:border-none hover:p-4 duration-500  text-white right-10 border-[#4F3727] border backdrop-blur-md rounded-full fixed bottom-6 animate-bounce z-[100]"

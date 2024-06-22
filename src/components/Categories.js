@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Categories = () => {
   return (
@@ -12,9 +13,11 @@ const Categories = () => {
             className="h-[200px] w-auto mx-auto  py-4"
           />
           <div className="relative ">
-            <button className="w-full bg-header-color text-white py-2 absolute top-5 group-hover:top-[-30px] duration-500">
-              See More
-            </button>
+            <Link href="sheep">
+              <button className="w-full bg-header-color text-white py-2 absolute top-5 group-hover:top-[-30px] duration-500">
+                See More
+              </button>
+            </Link>
           </div>
         </div>
         <div className="bg-neutral-100 p-4 group overflow-hidden">
@@ -25,9 +28,11 @@ const Categories = () => {
             className="h-[200px] w-auto mx-auto  py-4"
           />
           <div className="relative ">
-            <button className="w-full bg-header-color text-white py-2 absolute top-5 group-hover:top-[-30px] duration-500">
-              See More
-            </button>
+            <Link href="deer">
+              <button className="w-full bg-header-color text-white py-2 absolute top-5 group-hover:top-[-30px] duration-500">
+                See More
+              </button>
+            </Link>
           </div>
         </div>
         <div className="bg-neutral-100 p-4 group overflow-hidden">
@@ -38,9 +43,11 @@ const Categories = () => {
             className="h-[200px] w-auto mx-auto  py-4"
           />
           <div className="relative ">
-            <button className="w-full bg-header-color text-white py-2 absolute top-5 group-hover:top-[-30px] duration-500">
-              See More
-            </button>
+            <Link href="reindeer">
+              <button className="w-full bg-header-color text-white py-2 absolute top-5 group-hover:top-[-30px] duration-500">
+                See More
+              </button>
+            </Link>
           </div>
         </div>
         <div className="bg-neutral-100 p-4 group overflow-hidden">
@@ -51,9 +58,11 @@ const Categories = () => {
             className="h-[200px] w-auto mx-auto py-4"
           />
           <div className="relative ">
-            <button className="w-full bg-header-color text-white py-2 absolute top-5 group-hover:top-[-30px] duration-500">
-              See More
-            </button>
+            <Link href="medical">
+              <button className="w-full bg-header-color text-white py-2 absolute top-5 group-hover:top-[-30px] duration-500">
+                See More
+              </button>
+            </Link>
           </div>
         </div>
       </div>

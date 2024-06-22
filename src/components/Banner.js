@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Banner = () => {
   return (
@@ -12,9 +13,11 @@ const Banner = () => {
               Wrap Yourself in Natural Comfort <br /> Discover Luxurious
               Sheepskin Today!
             </p>
-            <button className="py-2 px-5 bg-green-800 text-white">
-              See More
-            </button>
+            <Link href="sheep">
+              <button className="py-2 px-5 bg-green-800 text-white">
+                See More
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -27,9 +30,11 @@ const Banner = () => {
               Wrap Yourself in Natural Comfort <br /> Discover Luxurious
               Sheepskin Today!
             </p>
-            <button className="py-2 px-5 bg-blue-800 text-white">
-              See More
-            </button>
+            <Link href="deer">
+              <button className="py-2 px-5 bg-blue-800 text-white">
+                See More
+              </button>
+            </Link>
           </div>
         </div>
         <div className=" relative h-[600px] w-full overflow-hidden">
@@ -40,9 +45,11 @@ const Banner = () => {
               "Embrace Nordic Elegance <br /> Discover the Timeless Beauty of
               Reindeer Skin."
             </p>
-            <button className="py-2 px-5 bg-header-color text-red-50">
-              See More
-            </button>
+            <Link href="reindeer">
+              <button className="py-2 px-5 bg-header-color text-red-50">
+                See More
+              </button>
+            </Link>
           </div>
         </div>
       </div>

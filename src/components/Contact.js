@@ -28,7 +28,10 @@ const Contact = () => {
           inquiries about our products or your orders. Reach out to us today,
           and we'll get back to you promptly!
         </p>
-        <button className="py-4 bg-header-color text-sm md:text-lg duration-300  text-white font-semibold ">
+        <button
+          onClick={() => window.open("tel:+2165481997")}
+          className="py-4 bg-header-color text-sm md:text-lg duration-300  text-white font-semibold "
+        >
           Chat Now
         </button>
       </div>
