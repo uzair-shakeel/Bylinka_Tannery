@@ -122,7 +122,7 @@ const NavBar = () => {
       </div>
 
       <div
-        className={`px-[3%] fixed backdrop-blur-md bottom-4 md:hidden mx-[2%] border border-header-color rounded-md shadow-lg flex justify-center items-center z-[1000] text-white bg-header-color/40 w-[96%] transition-transform duration-500 ${
+        className={`px-[3%] fixed backdrop-blur-md bottom-4 md:hidden mx-[4%] border border-header-color rounded-md shadow-lg flex justify-center items-center z-[1000] text-white bg-header-color/40 w-[92%] transition-transform duration-500 ${
           isVisible ? "translate-y-0" : "-translate-y-full"
         }`}
       >
