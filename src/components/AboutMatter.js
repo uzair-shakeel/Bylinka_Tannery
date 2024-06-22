@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMatter = () => {
   return (
-    <div className="py-14 px-[15%]">
+    <div className="py-14 px-[5%] lg:px-[15%]">
       <h1 className="text-3xl font-bold py-5 text-center">
         Tradition and Innovation at Bylinka Tannery
       </h1>

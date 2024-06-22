@@ -9,7 +9,7 @@ const Acheivement = () => {
           <p className="text-lg mb-8">
             Proudly serving our customers with premium quality skins
           </p>
-          <div className="flex justify-around items-center">
+          <div className="grid grid-cols-2 lg:grid-cols-4 items-center">
             <div className="p-4">
               <h3 className="text-4xl font-bold ">600+</h3>
               <p className="text-lg">Sheep Skins Sold</p>

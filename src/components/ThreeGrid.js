@@ -2,9 +2,9 @@ import React from "react";
 
 const ThreeGrid = () => {
   return (
-    <div className="grid h-[500px] overflow-hidden grid-cols-2 my-12 gap-[10px] px-[2%]">
+    <div className="grid h-[250px] md:h-[400px] lg:h-[500px] overflow-hidden grid-cols-2 my-12 gap-[10px] px-[2%]">
       <div className="h-full w-full mx-auto overflow-hidden">
-        <div className="relative h-[500px] w-full z-20 group">
+        <div className="relative h-[250px] md:h-[400px] lg:h-[500px] w-full z-20 group">
           <img
             src="/11.jpg"
             alt="image"
@@ -19,7 +19,7 @@ const ThreeGrid = () => {
       </div>
       <div className="flex flex-col gap-[10px]">
         <div className="h-full w-full mx-auto overflow-hidden">
-          <div className="relative h-[245px] w-full z-20 group">
+          <div className="relative h-[120px] md:h-[195px] lg:h-[245px] w-full z-20 group">
             <img
               src="/12.jpeg"
               alt="image"
@@ -33,7 +33,7 @@ const ThreeGrid = () => {
           </div>
         </div>
         <div className="h-full w-full mx-auto overflow-hidden">
-          <div className="relative h-[245px] w-full z-20 group">
+          <div className="relative h-[120px] md:h-[195px] lg:h-[245px] w-full z-20 group">
             <img
               src="/9.webp"
               alt="image"

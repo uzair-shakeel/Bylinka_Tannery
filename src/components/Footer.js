@@ -6,22 +6,25 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col bg-background-color lg:flex-row justify-between gap-6 border-b border-[#171848]/10 py-6 px-6 md:px-10 ">
-      <div className="lg:max-w-[45%]   space-y-[25px]  md:border-r border-[#171848]/10 pr-4">
-        <div className="flex font-bold">
+    <footer className="flex flex-col items-center lg:items-start bg-background-color lg:flex-row justify-between gap-6 border-b border-[#171848]/10 py-6 px-6 md:px-10 ">
+      <div className="w-[70%]  lg:max-w-[45%]   space-y-[25px]  md:border-r border-[#171848]/10 pr-4">
+        <div className="flex justify-center font-bold">
           <Image
             src={Logo}
             alt="Logo"
             className="w-auto h-[70px] text-header-color"
           />
         </div>
-        <p className="w-full md:w-[50%] lg:w-full">
+        <p className="w-full text-center lg:text-start md:w-[50%] lg:w-full">
           123 Maple Street, Greenwood City, Meadowshire, MS 12345, United States
         </p>
       </div>
 
       <div className="flex flex-col md:flex-row  w-full ">
-        <div className="grid grid-cols-1 gap-3 md:grid-cols-3 w-full">
+        <div
+          className="grid grid-cols-1 gap-3 text-center lg:text-start
+         md:grid-cols-3 w-full"
+        >
           <div>
             <h4 className="text-[18px] font-semibold py-3">Information</h4>
             <ul className="text-[#171848]/60 space-y-2 text-[16px]">
@@ -50,7 +53,7 @@ const Footer = () => {
           <div>
             <h4 className="text-[18px] font-semibold py-3">Connect with us</h4>
             <ul className="text-[#171848]/60 space-y-2 text-[16px]">
-              <li className="flex gap-3">
+              <li className="flex justify-center lg:justify-start gap-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -62,7 +65,7 @@ const Footer = () => {
                 </svg>
                 Email@example.com
               </li>
-              <li className="flex gap-3">
+              <li className="flex justify-center lg:justify-start gap-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"

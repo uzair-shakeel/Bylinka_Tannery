@@ -16,7 +16,7 @@ const Service = () => {
   ];
 
   return (
-    <div className="grid grid-cols-2 gap-6 px-[5%] py-20">
+    <div className="grid lg:grid-cols-2 gap-6 px-[5%] py-20">
       <div className="flex gap-2">
         <div className="w-[20%] space-y-2 flex flex-col items-center">
           {images.map((image, index) => (

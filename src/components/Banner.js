@@ -18,7 +18,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-2">
+      <div className="grid lg:grid-cols-2">
         <div className="relative h-[600px] w-full overflow-hidden">
           <img src="/10.jpg" alt="img" className="w-full h-full object-cover" />
           <div className="absolute top-6 w-full text-center">

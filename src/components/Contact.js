@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="my-12 bg-red-100 h-screen w-[98%] mx-auto grid grid-cols-2 gap-8 p-8">
+    <div className="my-12 bg-red-100 h-screen w-[98%] mx-auto grid lg:grid-cols-2 gap-8 p-8">
       <div className="h-full w-[80%] mx-auto overflow-hidden">
         <div className="relative h-full z-20 group">
           <img
