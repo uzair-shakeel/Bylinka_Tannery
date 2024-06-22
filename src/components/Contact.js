@@ -16,7 +16,7 @@ const Contact = () => {
       </div>
       <div className="flex flex-col space-y-8 justify-center">
         <div>
-          <p className="font-light py-1 md:py-3 text-tiny md:text-md uppercase">
+          <p className="font-light py-1 md:py-3 text-sm md:text-md uppercase">
             Contact
           </p>
           <h1 className="text-2xl md:text-5xl  mr-14 font-extrabold uppercase">

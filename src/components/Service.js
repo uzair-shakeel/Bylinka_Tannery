@@ -16,7 +16,7 @@ const Service = () => {
   ];
 
   return (
-    <div className="grid lg:grid-cols-2 gap-6 md:px-[5%] pt-20 pb-8 md:py-20">
+    <div className="grid lg:grid-cols-2 gap-6 md:px-[5%] py-8 md:py-20">
       <div className="flex flex-col mx-[3%] md:mx-0 md:flex-row gap-2">
         <div className="justify-between w-[20%] md:space-y-2 flex md:flex-col items-center">
           {images.map((image, index) => (
@@ -52,7 +52,7 @@ const Service = () => {
         <h3 className="text-2xl md:text-3xl font-bold">
           Reindeer Skin Tanning
         </h3>
-        <p className="py-4 md:leading-7 text-justify leading-5 md:text-md text-tiny">
+        <p className="py-4 md:leading-7 text-justify leading-5 md:text-md text-sm">
           At Bylinka Tannery, renowned for its masterful approach to traditional
           craftsmanship, we offer a unique service of tanning reindeer skins.
           These noble skins, sourced from remote Arctic regions, are valued
@@ -68,13 +68,13 @@ const Service = () => {
           Available Patterns:
         </h4>
         <div className="w-full flex ">
-          <span className="bg-header-color/20 w-full border text-center text-header-color border-header-color py-2 px-7 md:px-10 text-tiny md:text-md">
+          <span className="bg-header-color/20 w-full border text-center text-header-color border-header-color py-2 px-7 md:px-10 text-sm md:text-md">
             Straight
           </span>
-          <span className="bg-header-color/20 border w-full text-center text-header-color border-header-color py-2 px-7 md:px-10 text-tiny md:text-md">
+          <span className="bg-header-color/20 border w-full text-center text-header-color border-header-color py-2 px-7 md:px-10 text-sm md:text-md">
             Curly
           </span>
-          <span className="bg-header-color/20 border w-full text-center text-header-color border-header-color py-2 px-7 md:px-10 text-tiny md:text-md">
+          <span className="bg-header-color/20 border w-full text-center text-header-color border-header-color py-2 px-7 md:px-10 text-sm md:text-md">
             Short
           </span>
         </div>

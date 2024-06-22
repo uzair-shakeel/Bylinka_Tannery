@@ -68,7 +68,7 @@ export default function Carousel() {
           <h1 className="text-2xl  text-center py-3 font-bold w-full">
             Bylinka Tannery!
           </h1>
-          <p className=" px-8 text-justify text-tiny ">
+          <p className=" px-8 text-justify text-sm ">
             We warmly welcome you to the official website of Bylinka Tannery - a
             place where tradition meets modernity in the art of leather tanning.
             We are proud to continue the craftsmanship that has been our passion
@@ -100,7 +100,7 @@ export default function Carousel() {
           <h1 className="text-2xl  text-center py-3 text-blue-800 font-bold w-full">
             Bylinka Tannery!
           </h1>
-          <p className=" px-8 text-justify text-tiny ">
+          <p className=" px-8 text-justify text-sm ">
             We warmly welcome you to the official website of Bylinka Tannery - a
             place where tradition meets modernity in the art of leather tanning.
             We are proud to continue the craftsmanship that has been our passion
@@ -132,7 +132,7 @@ export default function Carousel() {
           <h1 className="text-2xl  text-center py-3 font-bold w-full">
             Bylinka Tannery!
           </h1>
-          <p className=" px-8 text-justify text-tiny ">
+          <p className=" px-8 text-justify text-sm ">
             We warmly welcome you to the official website of Bylinka Tannery - a
             place where tradition meets modernity in the art of leather tanning.
             We are proud to continue the craftsmanship that has been our passion
@@ -164,7 +164,7 @@ export default function Carousel() {
           <h1 className="text-2xl  text-center py-3 text-blue-800 font-bold w-full">
             Bylinka Tannery!
           </h1>
-          <p className=" px-8 text-justify text-tiny ">
+          <p className=" px-8 text-justify text-sm ">
             We warmly welcome you to the official website of Bylinka Tannery - a
             place where tradition meets modernity in the art of leather tanning.
             We are proud to continue the craftsmanship that has been our passion
@@ -196,7 +196,7 @@ export default function Carousel() {
           <h1 className="text-2xl  text-center py-3 font-bold w-full">
             Bylinka Tannery!
           </h1>
-          <p className=" px-8 text-justify text-tiny ">
+          <p className=" px-8 text-justify text-sm ">
             We warmly welcome you to the official website of Bylinka Tannery - a
             place where tradition meets modernity in the art of leather tanning.
             We are proud to continue the craftsmanship that has been our passion

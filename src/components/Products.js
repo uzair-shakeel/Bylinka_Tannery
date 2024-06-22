@@ -8,7 +8,7 @@ export default function App() {
       <div className="grid grid-cols-4 gap-4">
         <Card className="py-4 group cursor-pointer">
           <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-            {/* <p className="text-tiny uppercase font-bold">Daily Mix</p> */}
+            {/* <p className="text-sm uppercase font-bold">Daily Mix</p> */}
             <small className="text-default-500 overflow-hidden relative h-[60px] group-hover:h-[180px] duration-500">
               Discover the unparalleled softness and natural warmth of our
               genuine sheepskin.
@@ -32,7 +32,7 @@ export default function App() {
         </Card>
         <Card className="py-4 group cursor-pointer">
           <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-            {/* <p className="text-tiny uppercase font-bold">Daily Mix</p> */}
+            {/* <p className="text-sm uppercase font-bold">Daily Mix</p> */}
             <small className="text-default-500 overflow-hidden relative h-[60px] group-hover:h-[180px] duration-500">
               Discover the unparalleled softness and natural warmth of our
               genuine sheepskin.
@@ -56,7 +56,7 @@ export default function App() {
         </Card>
         <Card className="py-4 group cursor-pointer">
           <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-            {/* <p className="text-tiny uppercase font-bold">Daily Mix</p> */}
+            {/* <p className="text-smppercase font-bold">Daily Mix</p> */}
             <small className="text-default-500 overflow-hidden relative h-[60px] group-hover:h-[180px] duration-500">
               Discover the unparalleled softness and natural warmth of our
               genuine sheepskin.
@@ -80,7 +80,7 @@ export default function App() {
         </Card>
         <Card className="py-4 group cursor-pointer">
           <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-            {/* <p className="text-tiny uppercase font-bold">Daily Mix</p> */}
+            {/* <p className="text-sm uppercase font-bold">Daily Mix</p> */}
             <small className="text-default-500 overflow-hidden relative h-[60px] group-hover:h-[180px] duration-500">
               Discover the unparalleled softness and natural warmth of our
               genuine sheepskin.

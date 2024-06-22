@@ -16,7 +16,7 @@ export default function App() {
             What types of skins do you offer?
           </span>
         }
-        className="text-neutral-500 text-tiny  md:text-md  leading-6"
+        className="text-neutral-500 text-sm  md:text-md  leading-6"
       >
         We offer four main types of skins: Sheep Skin, Deer Skin, Reindeer Skin,
         and Medical Grade Skins. Each type has unique qualities and uses.
@@ -29,7 +29,7 @@ export default function App() {
             How do I choose the right type of skin for my needs?
           </span>
         }
-        className="text-neutral-500 text-tiny md:text-md leading-6"
+        className="text-neutral-500 text-sm md:text-md leading-6"
       >
         Consider the specific qualities and intended use of each type of skin.
         Sheep Skin is soft and versatile, Deer Skin is known for its durability
@@ -44,7 +44,7 @@ export default function App() {
             What are the benefits of Sheep Skin?
           </span>
         }
-        className="text-neutral-500 text-tiny md:text-md leading-6 "
+        className="text-neutral-500 text-sm md:text-md leading-6 "
       >
         Sheep Skin is renowned for its luxurious softness, natural warmth, and
         durability. It’s perfect for creating cozy blankets, stylish apparel, or
@@ -59,7 +59,7 @@ export default function App() {
             What are the unique features of Reindeer Skin?{" "}
           </span>
         }
-        className="text-neutral-500 text-tiny md:text-md leading-6 "
+        className="text-neutral-500 text-sm md:text-md leading-6 "
       >
         Reindeer Skin is known for its distinctive appearance, warmth, and
         softness. It’s often used for decorative purposes, such as rugs or wall
@@ -73,7 +73,7 @@ export default function App() {
             Are your skins ethically sourced?{" "}
           </span>
         }
-        className="text-neutral-500 text-tiny md:text-md leading-6 "
+        className="text-neutral-500 text-sm md:text-md leading-6 "
       >
         Yes, all our skins are sourced from ethical and sustainable practices.
         We prioritize animal welfare and environmental responsibility in our
@@ -87,7 +87,7 @@ export default function App() {
             Do you offer customization options?{" "}
           </span>
         }
-        className="text-neutral-500 text-tiny md:text-md leading-6 "
+        className="text-neutral-500 text-sm md:text-md leading-6 "
       >
         Yes, we offer customization options for certain products. Please contact
         us with your specific requirements, and we will do our best to

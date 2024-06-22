@@ -14,19 +14,19 @@ const Acheivement = () => {
           <div className="grid grid-cols-2 lg:grid-cols-4 items-center">
             <div className="p-4">
               <h3 className="text-2xl md:text-4xl font-bold ">600+</h3>
-              <p className="text-tiny md:text-lg">Sheep Skins Sold</p>
+              <p className="text-sm md:text-lg">Sheep Skins Sold</p>
             </div>
             <div className="p-4">
               <h3 className="text-2xl md:text-4xl font-bold ">300+</h3>
-              <p className="text-tiny md:text-lg">Deer Skins Sold</p>
+              <p className="text-sm md:text-lg">Deer Skins Sold</p>
             </div>
             <div className="p-4">
               <h3 className="text-2xl md:text-4xl font-bold ">200+</h3>
-              <p className="text-tiny md:text-lg">Reindeer Skins Sold</p>
+              <p className="text-sm md:text-lg">Reindeer Skins Sold</p>
             </div>
             <div className="p-4">
               <h3 className="text-2xl md:text-4xl font-bold ">150+</h3>
-              <p className="text-tiny md:text-lg">Medical Grade Skins Sold</p>
+              <p className="text-sm md:text-lg">Medical Grade Skins Sold</p>
             </div>
           </div>
         </div>
