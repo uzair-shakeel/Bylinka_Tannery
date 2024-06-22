@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="my-12 bg-red-100 h-screen w-[98%] mx-auto grid lg:grid-cols-2 gap-8 p-8">
+    <div className=" md:mb-12 bg-gradient-to-b from-red-100 to-white h-screen w-full grid lg:grid-cols-2 gap-8 p-8">
       <div className="h-full w-[80%] mx-auto overflow-hidden">
         <div className="relative h-full z-20 group">
           <img
@@ -16,17 +16,19 @@ const Contact = () => {
       </div>
       <div className="flex flex-col space-y-8 justify-center">
         <div>
-          <p className="font-light py-3 text-md uppercase">Contact</p>
-          <h1 className="text-5xl  mr-14 font-extrabold uppercase">
+          <p className="font-light py-1 md:py-3 text-tiny md:text-md uppercase">
+            Contact
+          </p>
+          <h1 className="text-2xl md:text-5xl  mr-14 font-extrabold uppercase">
             Get in Touch with Us Today!
           </h1>
         </div>
-        <p className="leading-14 text-lg">
+        <p className=" leading-6 md:leading-14 text-sm md:text-lg">
           Have questions or need assistance? Our team is here to help with any
           inquiries about our products or your orders. Reach out to us today,
           and we'll get back to you promptly!
         </p>
-        <button className="py-4 bg-header-color  duration-300  text-white font-semibold ">
+        <button className="py-4 bg-header-color text-sm md:text-lg duration-300  text-white font-semibold ">
           Chat Now
         </button>
       </div>

@@ -3,12 +3,12 @@ import FAQs from "./FAQs";
 import Image from "next/image";
 const FrequentlyAsked = () => {
   return (
-    <div className="px-[4%] py-8 grid lg:grid-cols-2 gap-4">
+    <div className="px-[4%] py-2 md:py-8 grid lg:grid-cols-2 gap-4">
       <div>
-        <h1 className="text-3xl font-bold py-6 text-center">
+        <h1 className="text-2xl md:text-3xl font-bold py-6 text-center">
           Frequently Asked Questions
         </h1>
-        <div className="px-[5%]">
+        <div className="md:px-[5%]">
           <FAQs />
         </div>
       </div>

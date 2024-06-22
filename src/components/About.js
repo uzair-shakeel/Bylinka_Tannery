@@ -2,8 +2,8 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="my-12 bg-red-100 min-h-screen w-[98%] mx-auto grid lg:grid-cols-2 gap-8 p-8">
-      <div className="h-full w-[80%] mx-auto overflow-hidden">
+    <div className="my-12  min-h-screen w-[98%] mx-auto grid lg:grid-cols-2 gap-8 p-8">
+      <div className="h-full w-full md:w-[80%] mx-auto overflow-hidden">
         <div className="relative h-full z-20 group">
           <img
             src="/fwphotosforsheep/DSCF3216.jpg"
@@ -14,14 +14,16 @@ const Contact = () => {
           {/* <div className="absolute h-[2%] w-full  duration-500 bg-white/50 backdrop-blur-xl skew-y-8 bg-none group-hover:top-[600px] top-[-100px] "></div> */}
         </div>
       </div>
-      <div className="flex flex-col space-y-8 justify-center">
+      <div className="flex flex-col space-y-3 md:space-y-8 justify-center">
         <div>
-          <p className="font-light py-3 text-md uppercase">About us</p>
-          <h1 className="text-5xl  mr-14 font-extrabold uppercase">
+          <p className="font-light py-1 md:py-3 text-[10px] md:text-md uppercase">
+            About us
+          </p>
+          <h1 className="text-xl md:text-3xl lg:text-5xl  mr-14 font-extrabold uppercase">
             About Us - Bylinka Tannery
           </h1>
         </div>
-        <p className="leading-14 text-lg">
+        <p className="leading-6 md:leading-14 pb-4 md:mb-0 text-sm md:text-lg">
           At the heart of our operations stands Marian Siuty, owner of Bylinka
           Tannery, who has shaped his extensive experience in leather tanning
           over more than 40 years. He took over the craft from his father,
@@ -31,7 +33,7 @@ const Contact = () => {
           passion, he has transformed a small family business into one of the
           largest tanneries in the region.
         </p>
-        <button className="py-4 bg-header-color  duration-300  text-white font-semibold ">
+        <button className="py-4 bg-header-color  duration-300  text-white font-semibold text-sm md:text-md">
           Read More
         </button>
       </div>

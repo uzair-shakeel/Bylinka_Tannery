@@ -2,7 +2,7 @@ import React from "react";
 
 const Images = () => {
   return (
-    <div className=" p-4 w-[98%] mx-auto bg-white my-12">
+    <div className=" p-4 w-[98%] mx-auto bg-white  hidden md:block md:my-12">
       <h3 className="font-bold text-xl md:text-2xl py-2">Sheep Skin</h3>
       <div className="flex gap-1 md:gap-3 lg:gap-6 w-full  justify-between ">
         <div className="h-[100px] md:h-[170px] lg:w-auto lg:h-[250px]  overflow-hidden">

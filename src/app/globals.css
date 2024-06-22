@@ -22,7 +22,6 @@
 }
 
 body {
-  background-color: var(--background-color);
   color: var(--primary-text-color);
 }
 
@@ -45,4 +44,12 @@ h6 {
 
 .secondary-accent {
   color: var(--tertiary-accent-color);
+}
+
+.accordion-title {
+  font-size: 16px; /* Adjust as needed */
+
+  @media (min-width: 640px) {
+    font-size: 18px; /* Adjust as needed for larger screens */
+  }
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 const ThreeGrid = () => {
   return (
-    <div className="grid h-[250px] md:h-[400px] lg:h-[500px] overflow-hidden grid-cols-2 my-12 gap-[10px] px-[2%]">
+    <div className="grid h-[250px] md:h-[400px] lg:h-[500px] overflow-hidden grid-cols-2 mt-12 mb-4 md:my-12 gap-[10px] px-[2%]">
       <div className="h-full w-full mx-auto overflow-hidden">
         <div className="relative h-[250px] md:h-[400px] lg:h-[500px] w-full z-20 group">
           <img
