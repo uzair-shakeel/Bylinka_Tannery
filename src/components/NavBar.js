@@ -9,10 +9,10 @@ import {
 } from "@nextui-org/react";
 import Link from "next/link";
 import { FaHome } from "react-icons/fa";
-import { MdOutlineImportContacts } from "react-icons/md";
 import { AiFillProduct } from "react-icons/ai";
 import { GrLanguage } from "react-icons/gr";
 import { RiArrowUpDoubleLine } from "react-icons/ri";
+import { BsInfoCircleFill } from "react-icons/bs";
 
 const NavBar = () => {
   const [selectedKeys, setSelectedKeys] = useState(new Set(["english"]));
@@ -145,7 +145,7 @@ const NavBar = () => {
           </button>
           <Link href={"about"}>
             <li className="cursor-pointer">
-              <MdOutlineImportContacts size={28} />
+              <BsInfoCircleFill size={28} />
             </li>
           </Link>
           <li>
