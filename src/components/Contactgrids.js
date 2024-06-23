@@ -30,7 +30,7 @@ const Contactgrids = () => {
     <div className="px-[5%] py-12">
       <div className="grid md:grid-cols-3 gap-4 ">
         <div
-          className="bg-gradient-to-b hover:scale-105 duration-300 cursor-pointer flex flex-col gap-3 items-center rounded-lg from-green-100 to-white p-8"
+          className="bg-gradient-to-b hover:scale-105 duration-300 cursor-pointer flex flex-col gap-3 items-center rounded-lg from-blue-50 to-white p-8"
           onClick={handleEmailClick}
         >
           <MdOutlineMailOutline size={40} />
@@ -38,7 +38,7 @@ const Contactgrids = () => {
           <p className="text-xl">Email@example.com</p>
         </div>
         <div
-          className="bg-gradient-to-b hover:scale-105 duration-300 cursor-pointer flex flex-col gap-3 items-center rounded-lg from-green-100 to-white p-8"
+          className="bg-gradient-to-b hover:scale-105 duration-300 cursor-pointer flex flex-col gap-3 items-center rounded-lg from-blue-50 to-white p-8"
           onClick={handlePhoneClick}
         >
           <LuPhoneCall size={40} />
@@ -46,7 +46,7 @@ const Contactgrids = () => {
           <p className="text-xl">+2165481997</p>
         </div>
         <div
-          className="bg-gradient-to-b hover:scale-105 duration-300 cursor-pointer flex flex-col gap-3 items-center rounded-lg from-green-100 to-white p-8"
+          className="bg-gradient-to-b hover:scale-105 duration-300 cursor-pointer flex flex-col gap-3 items-center rounded-lg from-blue-50 to-white p-8"
           onClick={handleInfoClick}
         >
           <HiOutlineInformationCircle size={40} />
@@ -60,7 +60,7 @@ const Contactgrids = () => {
         </div>
       </div>
       <div
-        className="bg-gradient-to-b hover:scale-105 duration-300 cursor-pointer flex flex-col gap-3 items-center rounded-lg from-green-100 to-white p-8"
+        className="bg-gradient-to-b hover:scale-105 duration-300 cursor-pointer flex flex-col gap-3 items-center rounded-lg from-blue-50 to-white p-8"
         onClick={handleAddressClick}
       >
         <MdOutlineLocationSearching size={40} />
