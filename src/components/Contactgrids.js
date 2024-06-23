@@ -28,7 +28,7 @@ const Contactgrids = () => {
 
   return (
     <div className="px-[5%] py-12">
-      <div className="grid grid-cols-3 gap-4 ">
+      <div className="grid md:grid-cols-3 gap-4 ">
         <div
           className="bg-gradient-to-b hover:scale-105 duration-300 cursor-pointer flex flex-col gap-3 items-center rounded-lg from-green-100 to-white p-8"
           onClick={handleEmailClick}
