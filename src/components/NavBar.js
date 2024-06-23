@@ -6,6 +6,7 @@ import {
   DropdownMenu,
   DropdownItem,
   Button,
+  Tooltip,
 } from "@nextui-org/react";
 import Link from "next/link";
 import { FaHome } from "react-icons/fa";
@@ -79,9 +80,33 @@ const NavBar = () => {
           <Link href={"home"}>
             <li className="cursor-pointer ">Home</li>
           </Link>
-          <Link href={"services"}>
-            <li className="cursor-pointer">Services</li>
-          </Link>
+
+          <Dropdown>
+            <DropdownTrigger>
+              <Button
+                variant="ghost"
+                size="sm"
+                color="white"
+                className="capitalize border-none text-md"
+              >
+                SERVICES
+              </Button>
+            </DropdownTrigger>
+            <DropdownMenu aria-label="Static Actions">
+              <DropdownItem>
+                <Link href={"sheep"}>Sheep Skin</Link>
+              </DropdownItem>
+              <DropdownItem>
+                <Link href={"deer"}>Deer Skin</Link>
+              </DropdownItem>
+              <DropdownItem>
+                <Link href={"reindeer"}>Reindeer Skin</Link>
+              </DropdownItem>
+              <DropdownItem>
+                <Link href={"medical"}>Medical Grade</Link>
+              </DropdownItem>
+            </DropdownMenu>
+          </Dropdown>
           <Link href={"about"}>
             <li className="cursor-pointer">About</li>
           </Link>
@@ -121,39 +146,74 @@ const NavBar = () => {
         </Dropdown>
       </div>
 
+      {/* small devices */}
       <div
         className={`px-[3%] fixed backdrop-blur-md bottom-4 md:hidden mx-[4%] border border-header-color rounded-md shadow-lg flex justify-center items-center z-[1000] text-white bg-header-color/40 w-[92%] transition-transform duration-500 ${
           isVisible ? "translate-y-0" : "-translate-y-full"
         }`}
       >
         <ul className="flex w-full justify-between uppercase py-2 items-center text-sm md:text-md  h-full font-light">
-          <Link href={"home"}>
-            <li className="cursor-pointer px-4">
+          <Button
+            variant="ghost"
+            color="white"
+            size="sm"
+            className="capitalize border-none text-md"
+          >
+            <Link href={"home"}>
               <FaHome size={28} />
-            </li>
-          </Link>
-          <Link href={"services"}>
-            <li className="cursor-pointer">
-              <AiFillProduct size={28} />
-            </li>
-          </Link>
+            </Link>
+          </Button>
+
+          <Dropdown>
+            <DropdownTrigger>
+              <Button
+                variant="ghost"
+                size="sm"
+                color="white"
+                className="capitalize border-none text-md"
+              >
+                <AiFillProduct size={28} />
+              </Button>
+            </DropdownTrigger>
+            <DropdownMenu aria-label="Static Actions">
+              <DropdownItem>
+                <Link href={"sheep"}>Sheep Skin</Link>
+              </DropdownItem>
+              <DropdownItem>
+                <Link href={"deer"}>Deer Skin</Link>
+              </DropdownItem>
+              <DropdownItem>
+                <Link href={"reindeer"}>Reindeer Skin</Link>
+              </DropdownItem>
+              <DropdownItem>
+                <Link href={"medical"}>Medical Grade</Link>
+              </DropdownItem>
+            </DropdownMenu>
+          </Dropdown>
           <button
             onClick={scrollToTop}
             className="px-3 cursor-pointer text-white  animate-bounce z-[100]"
           >
             <RiArrowUpDoubleLine size={35} />
           </button>
-          <Link href={"about"}>
-            <li className="cursor-pointer">
+          <Button
+            variant="ghost"
+            color="white"
+            size="sm"
+            className="capitalize border-none text-md"
+          >
+            <Link href={"about"}>
               <BsInfoCircleFill size={28} />
-            </li>
-          </Link>
+            </Link>
+          </Button>
+
           <li>
             <Dropdown className="text-sm md:text-md">
               <DropdownTrigger>
                 <Button
                   variant="ghost"
                   color="white"
+                  size="sm"
                   className="capitalize border-none text-md"
                 >
                   <GrLanguage size={28} />
