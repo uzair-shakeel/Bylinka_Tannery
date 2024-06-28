@@ -204,6 +204,48 @@ const resources = {
         beauty. The final stage includes dyeing and finishing techniques that
         increase the skin's softness and flexibility, crucial for user comfort.`,
       },
+
+      reindeer: {
+        heading: "Reindeer Skin",
+        description: `At Bylinka Tannery, renowned for its masterful approach to traditional
+          craftsmanship, we offer a unique service of tanning reindeer skins.
+          These noble skins, sourced from remote Arctic regions, are valued
+          worldwide for their exceptional durability and beauty.`,
+        colors: `Available Color:`,
+        pattern: "Available Patterns:",
+
+        heading2: `Characteristics of Reindeer Skins`,
+        desc1: `Reindeer skins are exceptionally resistant to low temperatures and
+        moisture, making them an ideal material for winter clothing, footwear,
+        and interior design elements such as carpets or covers. The natural
+        texture and subtle, yet distinct, pattern of their fur add elegance and
+        warmth to every product.`,
+        heading3: `Applications of Reindeer Skins`,
+        desc2: `Tanned reindeer skins from Bylinka Tannery find wide application both in
+        fashion and in interior decoration. They are chosen by fashion designers
+        to create luxurious coats, jackets, and winter boots. In the interior
+        design sector, these skins are valued for their natural beauty and
+        durability, blending perfectly with various styles, from Scandinavian
+        minimalism to more traditional arrangements.`,
+        desc3: `Thanks to our commitment to preserving tradition and innovation in
+        tanning techniques, Bylinka Tannery is proud to provide products that
+        are not only beautifully presented but also durable and functional. Each
+        skin is a testament to our passion for craftsmanship and commitment to
+        excellence.`,
+        heading4: `Tanning Process`,
+        desc4: `Each skin is carefully selected and manually cleaned to remove any
+        impurities. This stage is crucial to preserve the natural properties of
+        the reindeer skin.`,
+        desc5: `We use a specially developed tanning method that enhances the natural
+        durability of the skin and protects it from harmful external factors.
+        Our tanning processes are environmentally friendly, ensuring that the
+        final product is both beautiful and ecologically sustainable.`,
+        desc6: `The skins are gently dyed to highlight their natural color while
+        preserving the unique fur pattern. Then, the skins are finished with
+        techniques that increase their softness and flexibility, important for
+        user comfort.`,
+      },
+
       related: "Related Services",
     },
   },
@@ -375,6 +417,44 @@ const resources = {
         heading5: "Proces Garbowania",
         desc4:
           "W Bylinka Tannery każda skóra jelenia jest garbowana z najwyższą starannością, aby zachować jej naturalną teksturę i kolor. Proces rozpoczyna się od dokładnego czyszczenia i przygotowania, a następnie przyjaznego dla środowiska garbowania, które chroni skórę przed czynnikami zewnętrznymi i podkreśla jej naturalne piękno. Ostatnim etapem są techniki farbowania i wykończenia, które zwiększają miękkość i elastyczność skóry, co jest kluczowe dla komfortu użytkownika.",
+      },
+
+      reindeer: {
+        heading: "Skóra z Renifera",
+        description: `W Bylinka Tannery, znanej z mistrzowskiego podejścia do tradycyjnego
+      rzemiosła, oferujemy unikalną usługę garbowania skór reniferów.
+      Te szlachetne skóry, pozyskiwane z odległych regionów Arktyki, są cenione
+      na całym świecie za swoją wyjątkową trwałość i piękno.`,
+        colors: `Dostępne Kolory:`,
+        pattern: "Dostępne Wzory:",
+        heading2: `Charakterystyka Skór z Renifera`,
+        desc1: `Skóry reniferów są wyjątkowo odporne na niskie temperatury i
+    wilgoć, co czyni je idealnym materiałem na odzież zimową, obuwie
+    oraz elementy wystroju wnętrz, takie jak dywany czy pokrowce. Naturalna
+    tekstura i subtelny, ale wyraźny wzór ich futra dodają elegancji i
+    ciepła każdemu produktowi.`,
+        heading3: `Zastosowania Skór z Renifera`,
+        desc2: `Garbowane skóry reniferów z Bylinka Tannery znajdują szerokie zastosowanie zarówno w
+    modzie, jak i w dekoracji wnętrz. Są wybierane przez projektantów mody
+    do tworzenia luksusowych płaszczy, kurtek i zimowych butów. W sektorze
+    aranżacji wnętrz, te skóry są cenione za swoje naturalne piękno i
+    trwałość, doskonale komponując się z różnymi stylami, od skandynawskiego
+    minimalizmu po bardziej tradycyjne aranżacje.`,
+        desc3: `Dzięki naszemu zaangażowaniu w zachowanie tradycji i innowacji w
+    technikach garbowania, Bylinka Tannery z dumą dostarcza produkty, które
+    są nie tylko pięknie prezentowane, ale także trwałe i funkcjonalne. Każda
+    skóra jest świadectwem naszej pasji do rzemiosła i zaangażowania w doskonałość.`,
+        heading4: `Proces Garbowania`,
+        desc4: `Każda skóra jest starannie wyselekcjonowana i ręcznie czyszczona w celu usunięcia
+    wszelkich zanieczyszczeń. Ten etap jest kluczowy, aby zachować naturalne
+    właściwości skóry renifera.`,
+        desc5: `Używamy specjalnie opracowanej metody garbowania, która zwiększa naturalną
+    trwałość skóry i chroni ją przed szkodliwymi czynnikami zewnętrznymi.
+    Nasze procesy garbowania są przyjazne dla środowiska, zapewniając, że
+    końcowy produkt jest zarówno piękny, jak i ekologicznie zrównoważony.`,
+        desc6: `Skóry są delikatnie barwione, aby podkreślić ich naturalny kolor, zachowując
+    unikalny wzór futra. Następnie skóry są wykańczane technikami, które zwiększają
+    ich miękkość i elastyczność, co jest ważne dla komfortu użytkownika.`,
       },
     },
   },
@@ -558,6 +638,46 @@ const resources = {
     Veredelungstechniken, die die Weichheit und Flexibilität des Leders erhöhen,
     was entscheidend für den Komfort des Benutzers ist.`,
       },
+
+      reindeer: {
+        heading: "Rentierleder",
+        description: `Bei Bylinka Tannery, bekannt für seine meisterhafte Herangehensweise an traditionelles
+      Handwerk, bieten wir einen einzigartigen Service zur Gerbung von Rentierfellen an.
+      Diese edlen Felle, die aus abgelegenen arktischen Regionen stammen, sind weltweit geschätzt
+      für ihre außergewöhnliche Haltbarkeit und Schönheit.`,
+        colors: `Verfügbare Farben:`,
+        pattern: "Verfügbare Muster:",
+        heading2: `Eigenschaften von Rentierfellen`,
+        desc1: `Rentierfelle sind außergewöhnlich widerstandsfähig gegen niedrige Temperaturen und
+    Feuchtigkeit, was sie zu einem idealen Material für Winterkleidung, Schuhe
+    und Innenelemente wie Teppiche oder Bezüge macht. Die natürliche
+    Textur und das dezente, aber markante Muster ihres Fells verleihen jedem Produkt
+    Eleganz und Wärme.`,
+        heading3: `Anwendungen von Rentierfellen`,
+        desc2: `Gegerbte Rentierfelle von Bylinka Tannery finden breite Anwendung sowohl in
+    der Mode als auch in der Inneneinrichtung. Sie werden von Modedesignern
+    ausgewählt, um luxuriöse Mäntel, Jacken und Winterstiefel zu kreieren. Im
+    Bereich der Inneneinrichtung werden diese Felle wegen ihrer natürlichen Schönheit und
+    Haltbarkeit geschätzt und passen perfekt zu verschiedenen Stilen, von skandinavischem
+    Minimalismus bis hin zu traditionelleren Arrangements.`,
+        desc3: `Dank unseres Engagements für den Erhalt von Tradition und Innovation in
+    Gerbtechniken ist Bylinka Tannery stolz darauf, Produkte zu liefern, die
+    nicht nur schön präsentiert, sondern auch langlebig und funktional sind. Jedes
+    Fell ist ein Beweis für unsere Leidenschaft für Handwerkskunst und unser Engagement für
+    Exzellenz.`,
+        heading4: `Gerbprozess`,
+        desc4: `Jedes Fell wird sorgfältig ausgewählt und manuell gereinigt, um
+    Verunreinigungen zu entfernen. Diese Phase ist entscheidend, um die natürlichen
+    Eigenschaften des Rentierfells zu erhalten.`,
+        desc5: `Wir verwenden eine speziell entwickelte Gerbmethode, die die natürliche
+    Haltbarkeit des Fells erhöht und es vor schädlichen äußeren Einflüssen schützt.
+    Unsere Gerbprozesse sind umweltfreundlich, um sicherzustellen, dass das
+    Endprodukt sowohl schön als auch ökologisch nachhaltig ist.`,
+        desc6: `Die Felle werden sanft gefärbt, um ihre natürliche Farbe zu betonen und dabei
+    das einzigartige Fellmuster zu erhalten. Dann werden die Felle mit
+    Techniken fertiggestellt, die ihre Weichheit und Flexibilität erhöhen, was für
+    den Benutzerkomfort wichtig ist.`,
+      },
     },
   },
   fr: {
@@ -740,6 +860,46 @@ const resources = {
     La phase finale comprend des techniques de teinture et de finition qui augmentent
     la douceur et la flexibilité de la peau, cruciales pour le confort de l'utilisateur.`,
       },
+
+      reindeer: {
+        heading: "Peau de Renne",
+        description: `Chez Bylinka Tannery, réputée pour son approche magistrale de l'artisanat
+      traditionnel, nous offrons un service unique de tannage des peaux de renne.
+      Ces nobles peaux, provenant des régions arctiques reculées, sont appréciées
+      dans le monde entier pour leur durabilité exceptionnelle et leur beauté.`,
+        colors: `Couleurs Disponibles:`,
+        pattern: "Motifs Disponibles:",
+        heading2: `Caractéristiques des Peaux de Renne`,
+        desc1: `Les peaux de renne sont exceptionnellement résistantes aux basses températures et
+    à l'humidité, ce qui en fait un matériau idéal pour les vêtements d'hiver, les chaussures
+    et les éléments de décoration intérieure tels que les tapis ou les couvertures. La
+    texture naturelle et le motif subtil mais distinct de leur fourrure ajoutent de l'élégance
+    et de la chaleur à chaque produit.`,
+        heading3: `Applications des Peaux de Renne`,
+        desc2: `Les peaux de renne tannées de Bylinka Tannery trouvent une large application tant dans
+    la mode que dans la décoration intérieure. Elles sont choisies par les créateurs de mode
+    pour créer des manteaux, des vestes et des bottes d'hiver luxueux. Dans le secteur
+    de la décoration intérieure, ces peaux sont appréciées pour leur beauté naturelle et
+    leur durabilité, s'intégrant parfaitement à divers styles, du minimalisme scandinave
+    aux arrangements plus traditionnels.`,
+        desc3: `Grâce à notre engagement à préserver la tradition et l'innovation dans les
+    techniques de tannage, Bylinka Tannery est fière de fournir des produits qui
+    ne sont pas seulement magnifiquement présentés mais aussi durables et fonctionnels. Chaque
+    peau est un témoignage de notre passion pour l'artisanat et de notre engagement pour
+    l'excellence.`,
+        heading4: `Processus de Tannage`,
+        desc4: `Chaque peau est soigneusement sélectionnée et nettoyée manuellement pour
+    enlever les impuretés. Cette étape est cruciale pour préserver les propriétés naturelles
+    de la peau de renne.`,
+        desc5: `Nous utilisons une méthode de tannage spécialement développée qui renforce la
+    durabilité naturelle de la peau et la protège contre les facteurs externes nuisibles.
+    Nos processus de tannage sont respectueux de l'environnement, garantissant que le
+    produit final est à la fois beau et écologiquement durable.`,
+        desc6: `Les peaux sont doucement teintées pour mettre en valeur leur couleur naturelle tout en
+    préservant le motif unique de la fourrure. Ensuite, les peaux sont finies avec
+    des techniques qui augmentent leur douceur et leur flexibilité, importantes pour le
+    confort de l'utilisateur.`,
+      },
     },
   },
   sv: {
@@ -920,6 +1080,45 @@ const resources = {
     skinnet mot yttre faktorer och framhäver dess naturliga skönhet. Den sista
     fasen omfattar färgnings- och ytbehandlingstekniker som ökar skinnets
     mjukhet och flexibilitet, vilket är avgörande för användarkomforten.`,
+      },
+
+      reindeer: {
+        heading: "Renskinn",
+        description: `På Bylinka Tannery, känd för sitt mästerliga tillvägagångssätt till traditionellt
+      hantverk, erbjuder vi en unik tjänst för garvning av renskinn.
+      Dessa ädla skinn, hämtade från avlägsna arktiska regioner, är värderade
+      över hela världen för sin exceptionella hållbarhet och skönhet.`,
+        colors: `Tillgängliga Färger:`,
+        pattern: "Tillgängliga Mönster:",
+        heading2: `Egenskaper hos Renskinn`,
+        desc1: `Renskinn är exceptionellt motståndskraftiga mot låga temperaturer och
+    fukt, vilket gör dem till ett idealiskt material för vinterkläder, skor
+    och inredningselement som mattor eller överdrag. Den naturliga
+    texturen och det subtila men distinkta mönstret i deras päls tillför elegans och
+    värme till varje produkt.`,
+        heading3: `Användningsområden för Renskinn`,
+        desc2: `Garvade renskinn från Bylinka Tannery hittar bred användning både inom
+    mode och inredning. De väljs av modedesigners för att skapa lyxiga kappor, jackor och
+    vinterstövlar. Inom inredningssektorn värderas dessa skinn för sin naturliga skönhet och
+    hållbarhet, och passar perfekt med olika stilar, från skandinavisk
+    minimalism till mer traditionella arrangemang.`,
+        desc3: `Tack vare vårt engagemang för att bevara tradition och innovation inom
+    garvtekniker är Bylinka Tannery stolt över att tillhandahålla produkter som
+    inte bara är vackert presenterade utan också hållbara och funktionella. Varje
+    skinn är ett bevis på vår passion för hantverk och vårt engagemang för
+    excellens.`,
+        heading4: `Garvningsprocess`,
+        desc4: `Varje skinn väljs noggrant och rengörs manuellt för att avlägsna
+    orenheter. Denna fas är avgörande för att bevara de naturliga egenskaperna
+    hos renskinnet.`,
+        desc5: `Vi använder en speciellt utvecklad garvningsmetod som ökar skinnets naturliga
+    hållbarhet och skyddar det mot skadliga yttre faktorer.
+    Våra garvningsprocesser är miljövänliga, vilket säkerställer att
+    slutprodukten är både vacker och ekologiskt hållbar.`,
+        desc6: `Skinnen färgas varsamt för att framhäva deras naturliga färg samtidigt som
+    det unika pälsmönstret bevaras. Därefter färdigställs skinnen med
+    tekniker som ökar deras mjukhet och flexibilitet, vilket är viktigt för
+    användarkomforten.`,
       },
     },
   },
