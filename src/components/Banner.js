@@ -71,7 +71,7 @@ const Banner = () => {
                 <button className="py-2 px-5 bg-header-color text-red-50">
                   {t("banner.reindeer.see")}
                 </button>
-              </Link>
+              </Link> 
             </div>
           </div>
         </div>

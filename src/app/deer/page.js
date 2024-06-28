@@ -5,7 +5,7 @@ import DeerDescription from "@/components/DeerDescription";
 import React from "react";
 import { RiArrowUpDoubleLine } from "react-icons/ri";
 
-const page = () => {
+const page = () => { 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };

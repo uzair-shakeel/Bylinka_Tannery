@@ -1,6 +1,9 @@
 import React from "react";
+import { useTranslation, I18nextProvider } from "react-i18next";
+import i18n from "../context/i18n";
 
 const ServiceDescription = () => {
+  const { t } = useTranslation();
   const breeds = [
     { name: "Merino", bg: "bg-header-color/20" },
     { name: "Dorper", bg: "bg-header-color/20" },
@@ -15,52 +18,42 @@ const ServiceDescription = () => {
   ];
 
   return (
-    <div className="pb-4 md:pb-14 px-[5%]">
-      <h1 className="text-2xl md:text-3xl font-bold py-5 text-center">
-        Available Breeds:
-      </h1>
-      <div className="w-full grid grid-cols-5 grid-rows-2 items-center justify-center ">
-        {breeds.map((option, index) => (
-          <span
-            key={index}
-            className={`bg-header-color/10 w-full border text-center text-header-color border-header-color py-4   text-sm md:text-lg`}
-          >
-            {option.name}
-          </span>
-        ))}
-      </div>
-      <h1 className="text-2xl md:text-3xl font-bold py-5 text-center md:mt-12">
-        Product Processing
-      </h1>
-      <p className="leading-6 md:leading-8 py-3 text-justify text-sm md:text-md">
-        <span className="font-bold">Preparation and Cleaning:</span> The tanning
-        process starts with the thorough cleaning of raw skins. All contaminants
-        and residual tissue are removed, which is crucial for ensuring the
-        quality of the final product.
-      </p>
+    <I18nextProvider i18n={i18n}>
+      <div className="pb-4 md:pb-14 px-[5%]">
+        <h1 className="text-2xl md:text-3xl font-bold py-5 text-center">
+          {t("sheep.breed")}
+        </h1>
+        <div className="w-full grid grid-cols-5 grid-rows-2 items-center justify-center ">
+          {breeds.map((option, index) => (
+            <span
+              key={index}
+              className={`bg-header-color/10 w-full border text-center text-header-color border-header-color py-4   text-sm md:text-lg`}
+            >
+              {option.name}
+            </span>
+          ))}
+        </div>
+        <h1 className="text-2xl md:text-3xl font-bold py-5 text-center md:mt-12">
+          {t("sheep.heading2")}
+        </h1>
+        <p className="leading-6 md:leading-8 py-3 text-justify text-sm md:text-md">
+          <span className="font-bold">{t("sheep.desc1")}</span>
+          {t("sheep.desc2")}
+        </p>
 
-      <p className="leading-6 md:leading-8 py-3 text-justify text-sm md:text-md">
-        <span className="font-bold">Preparation and Cleaning:</span> This is a
-        key stage where the skin is permanently altered. We use natural and
-        synthetic tanning agents that provide the skin with flexibility and
-        durability. Our tanning methods are eco-friendly and environmentally
-        safe.
-      </p>
-      <p className="leading-6 md:leading-8 py-3 text-justify text-sm md:text-md">
-        <span className="font-bold">Preparation and Cleaning:</span> After
-        tanning, the skin is dyed, dried, and then subjected to various
-        finishing processes such as grinding, polishing, or impregnation. These
-        stages define the appearance, texture, and color of the skin.
-      </p>
-      <p className="leading-6 md:leading-8 py-6 text-justify text-sm md:text-md">
-        Thanks to these processes and attention to detail, Bylinka Tannery
-        delivers top-quality products that meet the expectations of even the
-        most demanding clients. Our skins are prepared with the utmost care,
-        respecting both traditional craftsmanship and the latest trends in
-        tannery, allowing us to provide exceptional products to domestic and
-        international markets.{" "}
-      </p>
-    </div>
+        <p className="leading-6 md:leading-8 py-3 text-justify text-sm md:text-md">
+          <span className="font-bold">{t("sheep.desc1")}</span>
+          {t("sheep.desc4")}
+        </p>
+        <p className="leading-6 md:leading-8 py-3 text-justify text-sm md:text-md">
+          <span className="font-bold">{t("sheep.desc5")}</span>
+          {t("sheep.desc6")}
+        </p>
+        <p className="leading-6 md:leading-8 py-6 text-justify text-sm md:text-md">
+          {t("sheep.desc7")}
+        </p>
+      </div>
+    </I18nextProvider>
   );
 };
 

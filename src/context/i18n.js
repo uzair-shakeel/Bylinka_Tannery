@@ -132,6 +132,79 @@ const resources = {
         reindeer: `Reindeer Skins Sold`,
         medical: `Medical Grade Skins Sold`,
       },
+      sheep: {
+        heading: "Sheep Skin",
+        description: `At Bylinka Tannery, under the guidance of the experienced Marian
+          Siuty, we tan sheepskins sourced from the finest breeds, both Polish
+          and international. Each breed provides unique characteristics that
+          translate into specific properties of the skins we process.`,
+        colors: `Available Color:`,
+        pattern: "Available Patterns:",
+        breed: "Available Breeds:",
+        heading2: `Product Processing`,
+        desc1: `Preparation and Cleaning:`,
+        desc2: `The tanning
+        process starts with the thorough cleaning of raw skins. All contaminants
+        and residual tissue are removed, which is crucial for ensuring the
+        quality of the final product.`,
+        desc3: `Preparation and Cleaning:`,
+        desc4: `This is a
+        key stage where the skin is permanently altered. We use natural and
+        synthetic tanning agents that provide the skin with flexibility and
+        durability. Our tanning methods are eco-friendly and environmentally
+        safe.`,
+        desc5: `Preparation and Cleaning:`,
+        desc6: `After
+        tanning, the skin is dyed, dried, and then subjected to various
+        finishing processes such as grinding, polishing, or impregnation. These
+        stages define the appearance, texture, and color of the skin.`,
+        desc7: `Thanks to these processes and attention to detail, Bylinka Tannery
+        delivers top-quality products that meet the expectations of even the
+        most demanding clients. Our skins are prepared with the utmost care,
+        respecting both traditional craftsmanship and the latest trends in
+        tannery, allowing us to provide exceptional products to domestic and
+        international markets.`,
+      },
+      deer: {
+        heading: "Deer Skin",
+        description: `At Bylinka Tannery, we are proud to present our deer skin tanning
+            services, synonymous with refinement and natural beauty. Belonging
+            to the deer family, these skins provide materials that find use in
+            the most luxurious leather products.`,
+        colors: `Available Color:`,
+        pattern: "Available Patterns:",
+
+        heading2: `Characteristics of Deer Skins`,
+        desc1: `Deer skins are known for their exceptional delicacy and smoothness,
+        making them the perfect material for exclusive accessories and
+        high-fashion details. The natural pattern of their fur, subtly speckled,
+        adds a unique, elegant character to each product. The branched,
+        permanent antlers of deer are also used in decoration and artistic
+        crafts, highlighting their versatile application.`,
+        heading3: `Applications of Deer Skins`,
+        desc2: `Tanned deer skins are valued for their durability and aesthetics, making
+        them suitable for high-quality clothing, elegant handbags, wallets, and
+        also for finishing in luxury vehicles or as decorative elements in
+        exclusive interiors. Their versatility and durability make them the
+        choice for the most demanding clients who seek products that combine
+        luxury with functionality.`,
+        heading4: `Commitment to Quality and Tradition`,
+        desc3: `At Bylinka Tannery, we are committed to delivering products that are not
+        only beautifully presented but are also crafted according to the highest
+        artisanal standards. Each deer skin is tanned with passion and
+        precision, reflecting our commitment to promoting traditional tanning
+        techniques and modern innovations in the industry. Our work with deer is
+        a testament to our passion for the art of tanning and our commitment to
+        preserving natural heritage.`,
+        heading5: `Tanning Process`,
+        desc4: `At Bylinka Tannery, every deer skin is tanned with utmost care to
+        preserve its natural texture and color. The process begins with thorough
+        cleaning and preparation, followed by environmentally friendly tanning
+        to protect the skin against external factors and enhance its natural
+        beauty. The final stage includes dyeing and finishing techniques that
+        increase the skin's softness and flexibility, crucial for user comfort.`,
+      },
+      related: "Related Services",
     },
   },
 
@@ -257,6 +330,52 @@ const resources = {
         reindeer: "Sprzedane Skóry Reniferów",
         medical: "Sprzedane Skóry Medyczne",
       },
+
+      sheep: {
+        heading: "Skóra Owcy",
+        description:
+          "W Bylinka Tannery, pod kierownictwem doświadczonego Mariana Siuty, garbujemy skóry owcze pochodzące z najlepszych ras, zarówno polskich, jak i międzynarodowych. Każda rasa dostarcza unikalnych cech, które przekładają się na specyficzne właściwości skór, które przetwarzamy.",
+        colors: "Dostępne Kolory:",
+        pattern: "Dostępne Wzory:",
+        breed: "Dostępne Rasy:",
+        heading2: "Przetwarzanie Produktu",
+        desc1: "Przygotowanie i Czyszczenie:",
+        desc2:
+          "Proces garbowania zaczyna się od dokładnego czyszczenia surowych skór. Usuwane są wszelkie zanieczyszczenia i pozostałości tkanek, co jest kluczowe dla zapewnienia jakości końcowego produktu.",
+        desc3: "Garbowanie:",
+        desc4:
+          "Jest to kluczowy etap, w którym skóra zostaje trwale zmieniona. Używamy naturalnych i syntetycznych środków garbujących, które zapewniają skórze elastyczność i trwałość. Nasze metody garbowania są przyjazne dla środowiska i bezpieczne dla natury.",
+        desc5: "Wykończenie:",
+        desc6:
+          "Po garbowaniu skóra jest barwiona, suszona, a następnie poddawana różnym procesom wykończeniowym, takim jak szlifowanie, polerowanie czy impregnacja. Te etapy definiują wygląd, strukturę i kolor skóry.",
+        desc7:
+          "Dzięki tym procesom i dbałości o szczegóły, Bylinka Tannery dostarcza produkty najwyższej jakości, które spełniają oczekiwania nawet najbardziej wymagających klientów. Nasze skóry są przygotowywane z najwyższą starannością, szanując zarówno tradycyjne rzemiosło, jak i najnowsze trendy w garbarstwie, co pozwala nam dostarczać wyjątkowe produkty na rynki krajowe i międzynarodowe.",
+      },
+      related: "Powiązane Usługi",
+
+      deer: {
+        heading: "Skóra Jeleni",
+        description:
+          "W Bylinka Tannery z dumą prezentujemy nasze usługi garbowania skóry jeleni, które są synonimem wyrafinowania i naturalnego piękna. Skóry należące do rodziny jeleni stanowią materiały, które znajdują zastosowanie w najbardziej luksusowych wyrobach skórzanych.",
+        colors: "Dostępne Kolory:",
+        pattern: "Dostępne Wzory:",
+
+        heading2: "Charakterystyka Skór Jeleni",
+        desc1:
+          "Skóry jeleni są znane ze swojej wyjątkowej delikatności i gładkości, co czyni je idealnym materiałem do ekskluzywnych akcesoriów i modnych detali. Naturalny wzór ich futra, subtelnie nakrapiany, dodaje unikalnego, eleganckiego charakteru każdemu produktowi. Rozgałęzione, trwałe poroże jeleni jest również wykorzystywane w dekoracjach i rzemiośle artystycznym, podkreślając ich wszechstronne zastosowanie.",
+
+        heading3: "Zastosowania Skór Jeleni",
+        desc2:
+          "Garbowane skóry jeleni są cenione za swoją trwałość i estetykę, co czyni je odpowiednimi do wysokiej jakości odzieży, eleganckich torebek, portfeli, a także do wykończeń w luksusowych pojazdach lub jako elementy dekoracyjne w ekskluzywnych wnętrzach. Ich wszechstronność i trwałość sprawiają, że są wyborem najbardziej wymagających klientów, którzy szukają produktów łączących luksus z funkcjonalnością.",
+
+        heading4: "Zaangażowanie w Jakość i Tradycję",
+        desc3:
+          "W Bylinka Tannery zobowiązujemy się do dostarczania produktów, które są nie tylko pięknie prezentowane, ale także wykonane zgodnie z najwyższymi standardami rzemieślniczymi. Każda skóra jelenia jest garbowana z pasją i precyzją, odzwierciedlając nasze zaangażowanie w promowanie tradycyjnych technik garbowania oraz nowoczesnych innowacji w branży. Nasza praca z jeleniami jest świadectwem naszej pasji do sztuki garbowania i naszego zaangażowania w zachowanie naturalnego dziedzictwa.",
+
+        heading5: "Proces Garbowania",
+        desc4:
+          "W Bylinka Tannery każda skóra jelenia jest garbowana z najwyższą starannością, aby zachować jej naturalną teksturę i kolor. Proces rozpoczyna się od dokładnego czyszczenia i przygotowania, a następnie przyjaznego dla środowiska garbowania, które chroni skórę przed czynnikami zewnętrznymi i podkreśla jej naturalne piękno. Ostatnim etapem są techniki farbowania i wykończenia, które zwiększają miękkość i elastyczność skóry, co jest kluczowe dla komfortu użytkownika.",
+      },
     },
   },
   de: {
@@ -376,6 +495,68 @@ const resources = {
         deer: "Verkaufte Hirschhäute",
         reindeer: "Verkaufte Rentierhäute",
         medical: "Verkaufte medizinische Häute",
+      },
+
+      sheep: {
+        heading: "Schafsleder",
+        description:
+          "Bei Bylinka Tannery, unter der Leitung des erfahrenen Marian Siuty, gerben wir Schafsleder von den besten Rassen, sowohl polnischen als auch internationalen. Jede Rasse liefert einzigartige Eigenschaften, die sich in spezifischen Merkmalen der von uns verarbeiteten Leder widerspiegeln.",
+        colors: "Verfügbare Farben:",
+        pattern: "Verfügbare Muster:",
+        breed: "Verfügbare Rassen:",
+        heading2: "Produktverarbeitung",
+        desc1: "Vorbereitung und Reinigung:",
+        desc2:
+          "Der Gerbprozess beginnt mit der gründlichen Reinigung der rohen Häute. Alle Verunreinigungen und Gewebereste werden entfernt, was entscheidend für die Qualität des Endprodukts ist.",
+        desc3: "Gerbung:",
+        desc4:
+          "Dies ist eine Schlüsselstufe, bei der die Haut dauerhaft verändert wird. Wir verwenden natürliche und synthetische Gerbstoffe, die der Haut Flexibilität und Haltbarkeit verleihen. Unsere Gerbmethoden sind umweltfreundlich und sicher für die Natur.",
+        desc5: "Finishing:",
+        desc6:
+          "Nach dem Gerben wird die Haut gefärbt, getrocknet und dann verschiedenen Endbearbeitungsprozessen wie Schleifen, Polieren oder Imprägnieren unterzogen. Diese Stufen bestimmen das Aussehen, die Textur und die Farbe des Leders.",
+        desc7:
+          "Dank dieser Prozesse und der Liebe zum Detail liefert Bylinka Tannery Produkte von höchster Qualität, die die Erwartungen selbst der anspruchsvollsten Kunden erfüllen. Unsere Leder werden mit größter Sorgfalt hergestellt, wobei sowohl traditionelles Handwerk als auch die neuesten Trends in der Gerberei respektiert werden, was es uns ermöglicht, außergewöhnliche Produkte auf nationale und internationale Märkte zu liefern.",
+      },
+      related: "Verwandte Dienstleistungen",
+
+      deer: {
+        heading: "Hirschleder",
+        description: `Bei Bylinka Tannery sind wir stolz darauf, unsere Dienstleistungen zur
+        Gerbung von Hirschleder zu präsentieren, die für Raffinesse und natürliche Schönheit stehen.
+        Diese Leder, die zur Familie der Hirsche gehören, bieten Materialien, die in den luxuriösesten
+        Lederprodukten Verwendung finden.`,
+        colors: `Verfügbare Farben:`,
+        pattern: "Verfügbare Muster:",
+        heading2: `Eigenschaften von Hirschleder`,
+        desc1: `Hirschleder sind bekannt für ihre außergewöhnliche Zartheit und Glätte,
+    was sie zum perfekten Material für exklusive Accessoires und
+    modische Details macht. Das natürliche Muster ihres Fells, dezent gesprenkelt,
+    verleiht jedem Produkt einen einzigartigen, eleganten Charakter. Die verzweigten,
+    dauerhaften Geweihe der Hirsche werden auch in Dekorationen und künstlerischem
+    Handwerk verwendet und unterstreichen ihre vielseitige Anwendung.`,
+        heading3: `Anwendungen von Hirschleder`,
+        desc2: `Gegerbtes Hirschleder wird für seine Haltbarkeit und Ästhetik geschätzt,
+    was es für hochwertige Kleidung, elegante Handtaschen, Geldbörsen
+    und auch für Verkleidungen in Luxusfahrzeugen oder als dekorative Elemente
+    in exklusiven Innenräumen geeignet macht. Ihre Vielseitigkeit und Haltbarkeit
+    machen sie zur Wahl für die anspruchsvollsten Kunden, die Produkte suchen,
+    die Luxus mit Funktionalität kombinieren.`,
+        heading4: `Engagement für Qualität und Tradition`,
+        desc3: `Bei Bylinka Tannery sind wir bestrebt, Produkte zu liefern, die nicht nur
+    schön präsentiert werden, sondern auch nach den höchsten handwerklichen
+    Standards hergestellt sind. Jedes Hirschleder wird mit Leidenschaft und
+    Präzision gegerbt, was unser Engagement für die Förderung traditioneller
+    Gerbtechniken und moderner Innovationen in der Branche widerspiegelt. Unsere
+    Arbeit mit Hirschleder ist ein Beweis für unsere Leidenschaft für die
+    Kunst des Gerbens und unser Engagement für den Erhalt des natürlichen Erbes.`,
+        heading5: `Gerbprozess`,
+        desc4: `Bei Bylinka Tannery wird jedes Hirschleder mit größter Sorgfalt gegerbt,
+    um seine natürliche Struktur und Farbe zu bewahren. Der Prozess beginnt mit
+    gründlicher Reinigung und Vorbereitung, gefolgt von umweltfreundlicher
+    Gerbung, die das Leder vor äußeren Einflüssen schützt und seine natürliche
+    Schönheit hervorhebt. Die letzte Phase umfasst Färbungs- und
+    Veredelungstechniken, die die Weichheit und Flexibilität des Leders erhöhen,
+    was entscheidend für den Komfort des Benutzers ist.`,
       },
     },
   },
@@ -499,6 +680,66 @@ const resources = {
         reindeer: "Peaux de Renne Vendues",
         medical: "Peaux de Qualité Médicale Vendues",
       },
+
+      sheep: {
+        heading: "Peau de Mouton",
+        description:
+          "Chez Bylinka Tannery, sous la direction de l'expérimenté Marian Siuty, nous tannons des peaux de mouton provenant des meilleures races, tant polonaises qu'internationales. Chaque race offre des caractéristiques uniques qui se traduisent par des propriétés spécifiques des peaux que nous transformons.",
+        colors: "Couleurs Disponibles:",
+        pattern: "Motifs Disponibles:",
+        breed: "Races Disponibles:",
+        heading2: "Traitement du Produit",
+        desc1: "Préparation et Nettoyage:",
+        desc2:
+          "Le processus de tannage commence par un nettoyage approfondi des peaux brutes. Toutes les impuretés et les résidus de tissus sont éliminés, ce qui est crucial pour garantir la qualité du produit final.",
+        desc3: "Tannage:",
+        desc4:
+          "C'est une étape clé où la peau est modifiée de manière permanente. Nous utilisons des agents de tannage naturels et synthétiques qui confèrent à la peau flexibilité et durabilité. Nos méthodes de tannage sont respectueuses de l'environnement et sûres pour la nature.",
+        desc5: "Finition:",
+        desc6:
+          "Après le tannage, la peau est teinte, séchée, puis soumise à divers processus de finition tels que le ponçage, le polissage ou l'imprégnation. Ces étapes définissent l'apparence, la texture et la couleur de la peau.",
+        desc7:
+          "Grâce à ces processus et à l'attention portée aux détails, Bylinka Tannery livre des produits de la plus haute qualité qui répondent aux attentes des clients les plus exigeants. Nos peaux sont préparées avec le plus grand soin, respectant à la fois l'artisanat traditionnel et les dernières tendances en matière de tannerie, ce qui nous permet de fournir des produits exceptionnels aux marchés nationaux et internationaux.",
+      },
+      related: "Services Connexes",
+
+      deer: {
+        heading: "Peau de Cerf",
+        description: `Chez Bylinka Tannery, nous sommes fiers de présenter nos services de
+        tannage des peaux de cerf, synonymes de raffinement et de beauté naturelle. Appartenant
+        à la famille des cerfs, ces peaux fournissent des matériaux qui trouvent leur utilisation
+        dans les produits en cuir les plus luxueux.`,
+        colors: `Couleurs Disponibles:`,
+        pattern: "Motifs Disponibles:",
+        heading2: `Caractéristiques des Peaux de Cerf`,
+        desc1: `Les peaux de cerf sont connues pour leur délicatesse exceptionnelle et leur
+    douceur, ce qui en fait le matériau parfait pour les accessoires exclusifs et
+    les détails de haute couture. Le motif naturel de leur fourrure, subtilement tacheté,
+    ajoute un caractère unique et élégant à chaque produit. Les bois ramifiés et
+    permanents des cerfs sont également utilisés dans la décoration et l'artisanat
+    artistique, soulignant leur application polyvalente.`,
+        heading3: `Applications des Peaux de Cerf`,
+        desc2: `Les peaux de cerf tannées sont appréciées pour leur durabilité et leur esthétique,
+    ce qui les rend adaptées aux vêtements de haute qualité, aux sacs à main élégants,
+    aux portefeuilles et également aux finitions dans les véhicules de luxe ou comme
+    éléments décoratifs dans les intérieurs exclusifs. Leur polyvalence et leur durabilité
+    en font le choix des clients les plus exigeants qui recherchent des produits
+    alliant luxe et fonctionnalité.`,
+        heading4: `Engagement pour la Qualité et la Tradition`,
+        desc3: `Chez Bylinka Tannery, nous nous engageons à livrer des produits non seulement
+    magnifiquement présentés, mais aussi fabriqués selon les normes artisanales les plus élevées.
+    Chaque peau de cerf est tannée avec passion et précision, reflétant notre engagement
+    à promouvoir les techniques de tannage traditionnelles et les innovations modernes
+    dans l'industrie. Notre travail avec les cerfs est un témoignage de notre passion
+    pour l'art du tannage et de notre engagement à préserver le patrimoine naturel.`,
+        heading5: `Processus de Tannage`,
+        desc4: `Chez Bylinka Tannery, chaque peau de cerf est tannée avec le plus grand soin pour
+    préserver sa texture et sa couleur naturelles. Le processus commence par un nettoyage
+    et une préparation minutieux, suivis d'un tannage respectueux de l'environnement
+    pour protéger la peau contre les facteurs externes et améliorer sa beauté naturelle.
+    La phase finale comprend des techniques de teinture et de finition qui augmentent
+    la douceur et la flexibilité de la peau, cruciales pour le confort de l'utilisateur.`,
+      },
     },
   },
   sv: {
@@ -619,6 +860,66 @@ const resources = {
         deer: "Sålda Hjortskinn",
         reindeer: "Sålda Renskinn",
         medical: "Sålda Medicinska Skinn",
+      },
+
+      sheep: {
+        heading: "Fårskinn",
+        description:
+          "På Bylinka Tannery, under ledning av den erfarne Marian Siuty, garvar vi fårskinn från de bästa raserna, både polska och internationella. Varje ras har unika egenskaper som översätts till specifika egenskaper hos de skinn vi bearbetar.",
+        colors: "Tillgängliga Färger:",
+        pattern: "Tillgängliga Mönster:",
+        breed: "Tillgängliga Raser:",
+        heading2: "Produktbearbetning",
+        desc1: "Förberedelse och Rengöring:",
+        desc2:
+          "Garvningsprocessen börjar med grundlig rengöring av råskinnen. Alla föroreningar och vävnadsrester avlägsnas, vilket är avgörande för att säkerställa slutproduktens kvalitet.",
+        desc3: "Garvning:",
+        desc4:
+          "Detta är ett nyckelsteg där skinnet förändras permanent. Vi använder naturliga och syntetiska garvningsmedel som ger skinnet flexibilitet och hållbarhet. Våra garvningsmetoder är miljövänliga och säkra för naturen.",
+        desc5: "Efterbehandling:",
+        desc6:
+          "Efter garvningen färgas skinnet, torkas och utsätts sedan för olika efterbehandlingsprocesser såsom slipning, polering eller impregnering. Dessa steg bestämmer skinnets utseende, textur och färg.",
+        desc7:
+          "Tack vare dessa processer och uppmärksamhet på detaljer levererar Bylinka Tannery produkter av högsta kvalitet som uppfyller förväntningarna hos även de mest krävande kunderna. Våra skinn tillverkas med största omsorg, med respekt för både traditionellt hantverk och de senaste trenderna inom garvning, vilket gör det möjligt för oss att leverera exceptionella produkter till nationella och internationella marknader.",
+      },
+      related: "Relaterade Tjänster",
+
+      deer: {
+        heading: "Hjortskinn",
+        description: `På Bylinka Tannery är vi stolta över att presentera våra tjänster för
+        garvning av hjortskinn, som är synonymt med förfining och naturlig skönhet. Dessa skinn,
+        som tillhör hjortfamiljen, ger material som används i de mest lyxiga läderprodukterna.`,
+        colors: `Tillgängliga Färger:`,
+        pattern: "Tillgängliga Mönster:",
+        heading2: `Egenskaper hos Hjortskinn`,
+        desc1: `Hjortskinn är kända för sin exceptionella mjukhet och släthet,
+    vilket gör dem till det perfekta materialet för exklusiva accessoarer och
+    modedetaljer. Deras naturliga mönster, subtilt fläckade,
+    ger varje produkt en unik, elegant karaktär. Hjortens förgrenade,
+    permanenta horn används också i dekorationer och konstnärliga hantverk,
+    vilket understryker deras mångsidiga användning.`,
+        heading3: `Användningsområden för Hjortskinn`,
+        desc2: `Garbade hjortskinn uppskattas för sin hållbarhet och estetik, vilket
+    gör dem lämpliga för högkvalitativa kläder, eleganta handväskor, plånböcker,
+    och även för finish i lyxiga fordon eller som dekorativa element
+    i exklusiva interiörer. Deras mångsidighet och hållbarhet gör dem
+    till valet för de mest krävande kunder som söker produkter som kombinerar
+    lyx med funktionalitet.`,
+        heading4: `Engagemang för Kvalitet och Tradition`,
+        desc3: `På Bylinka Tannery är vi engagerade i att leverera produkter som inte bara
+    är vackert presenterade utan också tillverkade enligt de högsta
+    hantverksstandarderna. Varje hjortskinn bereds med passion och precision,
+    vilket speglar vårt engagemang för att främja traditionella
+    garvningstekniker och moderna innovationer inom branschen. Vårt arbete
+    med hjortskinn är ett bevis på vår passion för garvningens konst och
+    vårt engagemang för att bevara det naturliga arvet.`,
+        heading5: `Garvningsprocessen`,
+        desc4: `På Bylinka Tannery bereds varje hjortskinn med största omsorg för att
+    bevara dess naturliga struktur och färg. Processen börjar med noggrann
+    rengöring och förberedelse, följt av miljövänlig garvning som skyddar
+    skinnet mot yttre faktorer och framhäver dess naturliga skönhet. Den sista
+    fasen omfattar färgnings- och ytbehandlingstekniker som ökar skinnets
+    mjukhet och flexibilitet, vilket är avgörande för användarkomforten.`,
       },
     },
   },
