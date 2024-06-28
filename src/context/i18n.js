@@ -246,7 +246,65 @@ const resources = {
         user comfort.`,
       },
 
+      medical: {
+        heading: "Medical Grade Leathers",
+        description: `At Bylinka Tannery, we specialize in producing medical grade leathers,
+          which represent the highest standard of leather tanning for medical
+          applications. Our medical leathers are designed to ensure maximum
+          softness, flexibility, and safety for users, which is crucial in the
+          medical field.`,
+        colors: `Available Color:`,
+        pattern: "Available Patterns:",
+
+        heading2: `Safety and Hygiene`,
+        desc1: `Our medical grade leathers are tanned using specially selected methods
+        that minimize the risk of allergic reactions and skin irritation. We use
+        aluminum-based tannins known for their gentle action and compliance with
+        the stringent hygiene standards required in medicine. Each batch of
+        leather undergoes rigorous quality testing to ensure it meets medical
+        standards.`,
+        heading3: `Medical Applications`,
+        desc2: `Our medical leathers are used in the production of dressings, orthopedic
+        straps, medical clothing elements, and other accessories that come into
+        direct contact with patients' skin. Their delicacy and softness make
+        them ideal for individuals with sensitive skin and those requiring
+        special care in managing skin conditions or injuries.`,
+
+        heading4: `Commitment to Quality`,
+        desc3: `Our medical grade leathers are a symbol of Bylinka Tannery's commitment
+        to delivering the highest quality products. Every step in the production
+        process is closely monitored to ensure that the final product not only
+        meets but exceeds the expectations of our clients and the standards of
+        the medical industry. We are committed to maintaining the highest
+        ethical and environmental standards, making us a leader in the
+        production of medical leathers.`,
+
+        heading5: `Partnership and Collaboration`,
+        desc4: `At Bylinka, we understand the importance of collaboration with the
+        medical sector. We are open to partnerships with clinics, hospitals,
+        medical equipment manufacturers, and researchers to deliver products
+        that best meet medical needs. Our medical grade leathers are more than
+        just a product—they are part of a comprehensive approach to health and
+        well-being of patients worldwide.`,
+      },
+
       related: "Related Services",
+
+      footer: {
+        address: `
+          123 Maple Street, Greenwood City, Meadowshire, MS 12345, United States`,
+        pages: `Pages`,
+        home: `Home`,
+        sheep: `Sheep`,
+        deer: `Deer`,
+        reindeer: `Reindeer`,
+        medical: `Medical`,
+        about: `About`,
+        info: `Information`,
+        privacy: `Privacy policy`,
+        terms: `Terms & conditions`,
+        connect: `Connect with us`,
+      },
     },
   },
 
@@ -455,6 +513,59 @@ const resources = {
         desc6: `Skóry są delikatnie barwione, aby podkreślić ich naturalny kolor, zachowując
     unikalny wzór futra. Następnie skóry są wykańczane technikami, które zwiększają
     ich miękkość i elastyczność, co jest ważne dla komfortu użytkownika.`,
+      },
+
+      medical: {
+        heading: "Skóry Medyczne",
+        description: `W Bylinka Tannery specjalizujemy się w produkcji skór medycznych,
+      które reprezentują najwyższy standard garbowania skór dla
+      zastosowań medycznych. Nasze skóry medyczne są zaprojektowane, aby zapewnić
+      maksymalną miękkość, elastyczność i bezpieczeństwo dla użytkowników, co
+      jest kluczowe w dziedzinie medycyny.`,
+        colors: `Dostępne Kolory:`,
+        pattern: "Dostępne Wzory:",
+        heading2: `Bezpieczeństwo i Higiena`,
+        desc1: `Nasze skóry medyczne są garbowane za pomocą specjalnie wybranych metod,
+    które minimalizują ryzyko reakcji alergicznych i podrażnień skóry. Używamy
+    garbników na bazie aluminium, znanych ze swojego delikatnego działania i
+    zgodności z rygorystycznymi standardami higieny wymaganymi w medycynie. Każda
+    partia skóry przechodzi rygorystyczne testy jakości, aby zapewnić, że spełnia
+    standardy medyczne.`,
+        heading3: `Zastosowania Medyczne`,
+        desc2: `Nasze skóry medyczne są używane do produkcji opatrunków, pasków ortopedycznych,
+    elementów odzieży medycznej i innych akcesoriów mających bezpośredni kontakt ze
+    skórą pacjentów. Ich delikatność i miękkość sprawiają, że są idealne dla osób
+    o wrażliwej skórze oraz tych, które wymagają specjalnej opieki w zarządzaniu
+    stanami skórnymi lub urazami.`,
+        heading4: `Zaangażowanie w Jakość`,
+        desc3: `Nasze skóry medyczne są symbolem zaangażowania Bylinka Tannery w dostarczanie
+    produktów najwyższej jakości. Każdy etap procesu produkcji jest ściśle monitorowany,
+    aby zapewnić, że produkt końcowy nie tylko spełnia, ale i przewyższa oczekiwania
+    naszych klientów i standardy branży medycznej. Zobowiązujemy się do utrzymania
+    najwyższych standardów etycznych i środowiskowych, co czyni nas liderem w
+    produkcji skór medycznych.`,
+        heading5: `Partnerstwo i Współpraca`,
+        desc4: `W Bylinka rozumiemy znaczenie współpracy z sektorem medycznym. Jesteśmy otwarci na
+    partnerstwa z klinikami, szpitalami, producentami sprzętu medycznego i badaczami, aby
+    dostarczać produkty, które najlepiej spełniają potrzeby medyczne. Nasze skóry medyczne
+    to więcej niż tylko produkt - są częścią kompleksowego podejścia do zdrowia i
+    dobrego samopoczucia pacjentów na całym świecie.`,
+      },
+
+      footer: {
+        address: `
+      123 Maple Street, Greenwood City, Meadowshire, MS 12345, Stany Zjednoczone`,
+        pages: "Strony",
+        home: "Strona główna",
+        sheep: "Owca",
+        deer: "Jeleń",
+        reindeer: "Renifer",
+        medical: "Medyczne",
+        about: "O nas",
+        info: "Informacje",
+        privacy: "Polityka prywatności",
+        terms: "Regulamin",
+        connect: "Połącz się z nami",
       },
     },
   },
@@ -678,6 +789,58 @@ const resources = {
     Techniken fertiggestellt, die ihre Weichheit und Flexibilität erhöhen, was für
     den Benutzerkomfort wichtig ist.`,
       },
+
+      medical: {
+        heading: "Medizinisches Leder",
+        description: `Bei Bylinka Tannery spezialisieren wir uns auf die Herstellung von medizinischem Leder,
+      das den höchsten Standard der Ledergerbung für medizinische Anwendungen darstellt. Unser
+      medizinisches Leder ist so konzipiert, dass es maximale Weichheit, Flexibilität und
+      Sicherheit für die Benutzer gewährleistet, was im medizinischen Bereich von entscheidender
+      Bedeutung ist.`,
+        colors: `Verfügbare Farben:`,
+        pattern: "Verfügbare Muster:",
+        heading2: `Sicherheit und Hygiene`,
+        desc1: `Unser medizinisches Leder wird mit speziell ausgewählten Methoden gegerbt,
+    die das Risiko von allergischen Reaktionen und Hautreizungen minimieren. Wir verwenden
+    Aluminium-basierte Gerbstoffe, die für ihre sanfte Wirkung und die Einhaltung der
+    strengen Hygienestandards in der Medizin bekannt sind. Jede Charge Leder wird strengen
+    Qualitätstests unterzogen, um sicherzustellen, dass sie den medizinischen Standards entspricht.`,
+        heading3: `Medizinische Anwendungen`,
+        desc2: `Unser medizinisches Leder wird bei der Herstellung von Verbänden, orthopädischen
+    Gurten, medizinischen Kleidungselementen und anderen Accessoires verwendet, die in direkten
+    Kontakt mit der Haut von Patienten kommen. Ihre Zartheit und Weichheit machen sie ideal für
+    Personen mit empfindlicher Haut und diejenigen, die spezielle Pflege bei der Behandlung
+    von Hautkrankheiten oder Verletzungen benötigen.`,
+        heading4: `Engagement für Qualität`,
+        desc3: `Unser medizinisches Leder ist ein Symbol für das Engagement von Bylinka Tannery, Produkte
+    von höchster Qualität zu liefern. Jeder Schritt im Produktionsprozess wird genau überwacht,
+    um sicherzustellen, dass das Endprodukt nicht nur die Erwartungen unserer Kunden erfüllt,
+    sondern übertrifft und den Standards der medizinischen Industrie entspricht. Wir sind
+    bestrebt, die höchsten ethischen und ökologischen Standards einzuhalten, was uns zu einem
+    führenden Hersteller von medizinischem Leder macht.`,
+        heading5: `Partnerschaft und Zusammenarbeit`,
+        desc4: `Bei Bylinka verstehen wir die Bedeutung der Zusammenarbeit mit dem medizinischen Sektor.
+    Wir sind offen für Partnerschaften mit Kliniken, Krankenhäusern, Herstellern medizinischer
+    Geräte und Forschern, um Produkte zu liefern, die die medizinischen Bedürfnisse am besten
+    erfüllen. Unser medizinisches Leder ist mehr als nur ein Produkt - es ist Teil eines
+    umfassenden Ansatzes für die Gesundheit und das Wohlbefinden von Patienten weltweit.`,
+      },
+
+      footer: {
+        address: `
+      123 Maple Street, Greenwood City, Meadowshire, MS 12345, Vereinigte Staaten`,
+        pages: "Seiten",
+        home: "Startseite",
+        sheep: "Schaf",
+        deer: "Hirsch",
+        reindeer: "Rentier",
+        medical: "Medizinisch",
+        about: "Über uns",
+        info: "Information",
+        privacy: "Datenschutzrichtlinie",
+        terms: "Geschäftsbedingungen",
+        connect: "Verbinde dich mit uns",
+      },
     },
   },
   fr: {
@@ -900,6 +1063,57 @@ const resources = {
     des techniques qui augmentent leur douceur et leur flexibilité, importantes pour le
     confort de l'utilisateur.`,
       },
+
+      medical: {
+        heading: "Cuirs de Qualité Médicale",
+        description: `Chez Bylinka Tannery, nous nous spécialisons dans la production de cuirs de qualité
+      médicale, qui représentent la norme la plus élevée de tannage du cuir pour des applications
+      médicales. Nos cuirs médicaux sont conçus pour assurer une douceur, une flexibilité et une
+      sécurité maximales pour les utilisateurs, ce qui est crucial dans le domaine médical.`,
+        colors: `Couleurs Disponibles:`,
+        pattern: "Motifs Disponibles:",
+        heading2: `Sécurité et Hygiène`,
+        desc1: `Nos cuirs de qualité médicale sont tannés en utilisant des méthodes spécialement
+    sélectionnées qui minimisent le risque de réactions allergiques et d'irritations cutanées.
+    Nous utilisons des tanins à base d'aluminium connus pour leur action douce et leur conformité
+    aux normes d'hygiène strictes requises en médecine. Chaque lot de cuir subit des tests de
+    qualité rigoureux pour garantir qu'il répond aux normes médicales.`,
+        heading3: `Applications Médicales`,
+        desc2: `Nos cuirs médicaux sont utilisés dans la production de pansements, de sangles orthopédiques,
+    d'éléments de vêtements médicaux et d'autres accessoires qui entrent en contact direct avec
+    la peau des patients. Leur délicatesse et leur douceur les rendent idéaux pour les personnes
+    ayant la peau sensible et celles nécessitant des soins spéciaux dans la gestion des affections
+    cutanées ou des blessures.`,
+        heading4: `Engagement envers la Qualité`,
+        desc3: `Nos cuirs de qualité médicale sont le symbole de l'engagement de Bylinka Tannery à fournir
+    des produits de la plus haute qualité. Chaque étape du processus de production est étroitement
+    surveillée pour garantir que le produit final non seulement répond mais dépasse les attentes
+    de nos clients et les normes de l'industrie médicale. Nous nous engageons à maintenir les
+    normes éthiques et environnementales les plus élevées, ce qui fait de nous un leader dans la
+    production de cuirs médicaux.`,
+        heading5: `Partenariat et Collaboration`,
+        desc4: `Chez Bylinka, nous comprenons l'importance de la collaboration avec le secteur médical.
+    Nous sommes ouverts aux partenariats avec des cliniques, des hôpitaux, des fabricants
+    d'équipements médicaux et des chercheurs pour fournir des produits qui répondent le mieux aux
+    besoins médicaux. Nos cuirs de qualité médicale sont plus qu'un simple produit - ils font
+    partie d'une approche globale de la santé et du bien-être des patients dans le monde entier.`,
+      },
+
+      footer: {
+        address: `
+      123 Maple Street, Greenwood City, Meadowshire, MS 12345, États-Unis`,
+        pages: "Pages",
+        home: "Accueil",
+        sheep: "Mouton",
+        deer: "Cerf",
+        reindeer: "Renne",
+        medical: "Médical",
+        about: "À propos",
+        info: "Information",
+        privacy: "Politique de confidentialité",
+        terms: "Termes et conditions",
+        connect: "Connectez avec nous",
+      },
     },
   },
   sv: {
@@ -1119,6 +1333,56 @@ const resources = {
     det unika pälsmönstret bevaras. Därefter färdigställs skinnen med
     tekniker som ökar deras mjukhet och flexibilitet, vilket är viktigt för
     användarkomforten.`,
+      },
+
+      medical: {
+        heading: "Medicinskt Läder",
+        description: `På Bylinka Tannery specialiserar vi oss på att producera medicinskt läder,
+      vilket representerar den högsta standarden för lädergarvning för medicinska
+      tillämpningar. Vårt medicinska läder är utformat för att säkerställa maximal
+      mjukhet, flexibilitet och säkerhet för användarna, vilket är avgörande inom
+      det medicinska området.`,
+        colors: `Tillgängliga Färger:`,
+        pattern: "Tillgängliga Mönster:",
+        heading2: `Säkerhet och Hygien`,
+        desc1: `Vårt medicinska läder är garvat med speciellt utvalda metoder
+    som minimerar risken för allergiska reaktioner och hudirritationer. Vi använder
+    aluminium-baserade garvämnen som är kända för sin milda verkan och överensstämmelse med
+    de strikta hygienstandarder som krävs inom medicin. Varje parti läder genomgår noggranna
+    kvalitetstester för att säkerställa att det uppfyller medicinska standarder.`,
+        heading3: `Medicinska Tillämpningar`,
+        desc2: `Vårt medicinska läder används vid tillverkning av förband, ortopediska
+    remmar, medicinska klädelement och andra tillbehör som kommer i direkt kontakt med
+    patienternas hud. Deras ömhet och mjukhet gör dem idealiska för personer med känslig hud
+    och de som kräver särskild vård vid behandling av hudtillstånd eller skador.`,
+        heading4: `Engagemang för Kvalitet`,
+        desc3: `Vårt medicinska läder är en symbol för Bylinka Tannerys engagemang för att leverera
+    produkter av högsta kvalitet. Varje steg i produktionsprocessen övervakas noggrant för att
+    säkerställa att slutprodukten inte bara uppfyller utan överträffar våra kunders förväntningar
+    och de medicinska industrins standarder. Vi är engagerade i att upprätthålla de högsta
+    etiska och miljömässiga standarderna, vilket gör oss till en ledande producent av medicinskt
+    läder.`,
+        heading5: `Partnerskap och Samarbete`,
+        desc4: `På Bylinka förstår vi vikten av samarbete med den medicinska sektorn. Vi är öppna för
+    partnerskap med kliniker, sjukhus, medicintekniska tillverkare och forskare för att leverera
+    produkter som bäst uppfyller medicinska behov. Vårt medicinska läder är mer än bara en produkt
+    - det är en del av en omfattande strategi för hälsa och välbefinnande hos patienter världen över.`,
+      },
+
+      footer: {
+        address: `
+      123 Maple Street, Greenwood City, Meadowshire, MS 12345, Förenta Staterna`,
+        pages: "Sidor",
+        home: "Hem",
+        sheep: "Får",
+        deer: "Hjort",
+        reindeer: "Ren",
+        medical: "Medicinskt",
+        about: "Om oss",
+        info: "Information",
+        privacy: "Integritetspolicy",
+        terms: "Villkor",
+        connect: "Anslut med oss",
       },
     },
   },

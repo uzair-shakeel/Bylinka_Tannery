@@ -164,16 +164,20 @@ const NavBar = () => {
               </DropdownTrigger>
               <DropdownMenu aria-label="Static Actions">
                 <DropdownItem>
-                  <Link href={"sheep"}>Sheep Skin</Link>
+                  <Link href={"sheep"}>{t("navbar.servicesMenu.sheep")}</Link>
                 </DropdownItem>
                 <DropdownItem>
-                  <Link href={"deer"}>Deer Skin</Link>
+                  <Link href={"deer"}>{t("navbar.servicesMenu.deer")}</Link>
                 </DropdownItem>
                 <DropdownItem>
-                  <Link href={"reindeer"}>Reindeer Skin</Link>
+                  <Link href={"reindeer"}>
+                    {t("navbar.servicesMenu.reindeer")}
+                  </Link>
                 </DropdownItem>
                 <DropdownItem>
-                  <Link href={"medical"}>Medical Grade</Link>
+                  <Link href={"medical"}>
+                    {t("navbar.servicesMenu.medical")}
+                  </Link>
                 </DropdownItem>
               </DropdownMenu>
             </Dropdown>
